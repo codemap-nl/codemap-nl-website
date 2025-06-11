@@ -5,30 +5,94 @@ page-layout: custom
 toc: false
 ---
 
-{{< include _includes/styles.html >}}
+```{=html}
+<div class="hero-section">
+  <div class="hero-content">
+    <h1 class="hero-title">Introducing CODEMAP</h1>
+    <p class="hero-subtitle" style="font-size: 2rem;">Collaborative Dutch Epidemic Modelling and Data Analytics Platform</p>
+    <p class="hero-description">
+      Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way.
+    </p>
+    <a href="members/index.qmd" class="cta-button">Explore Our Network</a>
+  </div>
+</div>
+```
 
-::: {.hero-section}
-::: {.hero-content}
-# Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP) {.hero-title}
+```{=html}
+<div class="logo-marquee">
+  <div class="logo-marquee-content">
+    <div class="logo-item">
+      <img src="images/logos/RIVM.png" alt="RIVM" style="max-height: 70px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UvA_logo.jpg" alt="University of Amsterdam" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UU.png" alt="Utrecht University" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LUMC.jpg" alt="LUMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VU.png" alt="Vrije Universiteit" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TNO.jpg" alt="TNO" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/WUR.png" alt="Wageningen University and Research" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LSHTM.jpg" alt="London School of Hygiene and Tropical Medicine" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UMC Utrecht.png" alt="UMC Utrecht" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Amsterdam UMC.png" alt="Amsterdam UMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Eindhoven.png" alt="TU Eindhoven" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Universiteit Twente.png" alt="Universiteit Twente" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/RUG.jpg" alt="RUG" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/SCP.png" alt="SCP" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/cbs_logo.jpg" alt="VWS" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/lcps.png" alt="LCPS" style="max-height: 60px;">
+    </div>
+  </div>
+</div>
 
-<!--  {.hero-subtitle} -->
+```
 
-Strengthening the field of infectious disease modelling and data analysis in the Netherlands {.hero-description}
-<!--#  -->
-[Learn more](about.qmd){.cta-button}
-:::
-:::
-
-::: {.quote-section}
-Our goal is to advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands. {.quote-text}
-
-<!-- ::: {.quote-logo} -->
-<!-- 💻 -->
-<!-- ::: -->
-:::
+<!-- We're missing LCPS logo -->
 
 ::: {.cards-section #about}
-## What We Offer {.section-title}
+<!-- ## What We Offer {.section-title} -->
 
 ::: {.cards-grid}
 ::: {.feature-card}
@@ -36,9 +100,10 @@ Our goal is to advance knowledge and expand capacity in the field of infectious 
 👥
 :::
 ::: {.card-content}
-### Who are we? {.card-title}
-CODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. {.card-description}
-\[Learn More\](about.qmd){.card-link}
+**Who we are**
+CODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. 
+
+[Learn more](about.qmd){.card-link}
 :::
 :::
 
@@ -47,9 +112,10 @@ CODEMAP includes professionals working on infectious disease modelling at a rang
 📊
 :::
 ::: {.card-content}
-### News {.card-title}
-Keep up to date on our projects. {.card-description}
-\[Stay up-to-date\](news/index.qmd){.card-link}
+**News**
+Keep up to date on our projects.
+
+[Stay up-to-date](news/index.qmd){.card-link}
 :::
 :::
 
@@ -58,9 +124,10 @@ Keep up to date on our projects. {.card-description}
 🎓
 :::
 ::: {.card-content}
-### Resources {.card-title}
-Get access to our materials and resources. {.card-description}
-\[Browse Resources\](resources/index.qmd){.card-link}
+**Resources**
+Get access to our materials and resources. 
+
+[Browse Resources](resources/index.qmd){.card-link}
 :::
 :::
 
@@ -69,9 +136,10 @@ Get access to our materials and resources. {.card-description}
 📅
 :::
 ::: {.card-content}
-### Events & Workshops {.card-title}
-Check our past and upcoming events and workshops. {.card-description}
-\[View Events\](events/index.qmd){.card-link}
+**Events & Workshops**
+Check our past and upcoming events and workshops. 
+
+[View Events](events/index.qmd){.card-link}
 :::
 :::
 :::
