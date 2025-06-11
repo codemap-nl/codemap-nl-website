@@ -1,9 +1,12 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 website:
   title: "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)"
+  site-url: "https://codemap-nl.github.io/codemap-nl-website/"
+  repo-url: "https://github.com/codemap-nl/codemap-nl-website"
+  repo-actions: [edit, issue]
   description: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way."
   favicon: images/favicon.ico
   
