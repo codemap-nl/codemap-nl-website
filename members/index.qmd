@@ -1,5 +1,163 @@
 ---
-title: "index"
+title: "Member Organizations"
 format: html
 ---
 
+CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad.
+
+```{=html}
+<div class="stats-section">
+  <h2 style="text-align: center; margin-bottom: 1rem;">At a Glance</h2>
+  <p style="text-align: center; color: #64748b; margin-bottom: 3rem;">
+    20 leading research institutions advancing infectious disease modeling in the Netherlands
+  </p>
+  
+  <div class="stats-grid" style="margin-bottom: 3rem; grid-template-columns: repeat(2, 1fr); max-width: 600px; margin-left: auto; margin-right: auto;">
+    <div class="stat-item">
+      <span class="stat-number">21</span>
+      <div class="stat-label">Partner Organizations</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">10</span>
+      <div class="stat-label">Universities</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">5</span>
+      <div class="stat-label">Medical Centers</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">6</span>
+      <div class="stat-label">Research Institutes/ Government Agencies</div>
+    </div>
+  </div>
+</div>
+
+<div style="background: #f8fafc; padding: 3rem 2rem;">
+  <h3 style="text-align: center; margin-bottom: 2rem; color: #1e293b;">Universities</h3>
+  <div class="logo-grid">
+    <div class="logo-item">
+      <a href="https://www.wur.nl" target="_blank">
+        <img src="../images/logos/WUR.png" alt="Wageningen University and Research" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.uva.nl" target="_blank">
+        <img src="../images/logos/UvA_logo.jpg" alt="University of Amsterdam" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.uu.nl" target="_blank">
+        <img src="../images/logos/UU.png" alt="Utrecht University" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.tudelft.nl" target="_blank">
+        <img src="../images/logos/TU Delft.png" alt="TU Delft" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.tue.nl" target="_blank">
+        <img src="../images/logos/TU Eindhoven.png" alt="TU Eindhoven" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.utwente.nl" target="_blank">
+        <img src="../images/logos/Universiteit Twente.png" alt="Universiteit Twente" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.tilburguniversity.edu" target="_blank">
+        <img src="../images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.rug.nl" target="_blank">
+        <img src="../images/logos/RUG.jpg" alt="University of Groningen" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://vu.nl" target="_blank">
+        <img src="../images/logos/VU.png" alt="Vrije Universiteit Amsterdam" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.lshtm.ac.uk" target="_blank">
+        <img src="../images/logos/LSHTM.jpg" alt="London School of Hygiene and Tropical Medicine" style="max-height: 80px;">
+      </a>
+    </div>
+  </div>
+
+  <h3 style="text-align: center; margin: 3rem 0 2rem 0; color: #1e293b;">Academic Medical Centers</h3>
+  <div class="logo-grid">
+    <div class="logo-item">
+      <a href="https://www.erasmusmc.nl" target="_blank">
+        <img src="../images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.radboudumc.nl" target="_blank">
+        <img src="../images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.umcutrecht.nl" target="_blank">
+        <img src="../images/logos/UMC Utrecht.png" alt="UMC Utrecht" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.lumc.nl" target="_blank">
+        <img src="../images/logos/LUMC.jpg" alt="Leiden University Medical Center" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.amsterdamumc.org" target="_blank">
+        <img src="../images/logos/Amsterdam UMC.png" alt="Amsterdam UMC" style="max-height: 80px;">
+      </a>
+    </div>
+  </div>
+
+  <h3 style="text-align: center; margin: 3rem 0 2rem 0; color: #1e293b;">Research Institutes and Government Agencies</h3>
+  <div class="logo-grid">
+    <div class="logo-item">
+      <a href="https://www.tno.nl" target="_blank">
+        <img src="../images/logos/TNO.jpg" alt="TNO" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.rivm.nl" target="_blank">
+        <img src="../images/logos/RIVM.png" alt="RIVM" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.cbs.nl" target="_blank">
+        <img src="../images/logos/cbs_logo.jpg" alt="CBS - Statistics Netherlands" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.scp.nl" target="_blank">
+        <img src="../images/logos/SCP.png" alt="SCP - Netherlands Institute for Social Research" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.government.nl/ministries/ministry-of-health-welfare-and-sport" target="_blank">
+        <img src="../images/logos/VWS.png" alt="Ministry of Health, Welfare and Sport" style="max-height: 80px;">
+      </a>
+    </div>
+    <div class="logo-item">
+      <a href="https://www.government.nl/ministries/ministry-of-health-welfare-and-sport" target="_blank">
+        <img src="../images/logos/lcps.png" alt="Landelijke Coordinatiecentrum Patienten Spreiding" style="max-height: 80px;">
+      </a>
+    </div>
+  </div>
+</div>
+```
+
+## How to Join
+
+Interested in joining our collaborative platform? Contact us!
+
+- Website: [Collaborative Platform for Epidemic Modelling and Data Analytics](https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en)
+
+- LinkedIn group: [Epidemic Modelling and Data Analytics](https://www.linkedin.com/groups/13094435/)
+
+- Email: collabforepidemodatanalytics [AT] rivm.nl
