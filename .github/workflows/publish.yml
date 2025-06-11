@@ -1,0 +1,96 @@
+name: Publish CODEMAP Website
+
+on:
+  push:
+    branches: 
+      - main
+  # Allow manual triggering from GitHub UI
+  workflow_dispatch:
+
+# Set permissions for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.4.550"  # Use specific stable version
+      
+      - name: Verify Quarto installation
+        run: |
+          quarto --version
+          quarto check
+      
+      - name: List files before render
+        run: |
+          echo "Repository structure:"
+          find . -type f -name "*.qmd" -o -name "*.yml" -o -name "*.css" -o -name "*.html" | head -20
+      
+      - name: Render Quarto website
+        run: |
+          echo "Rendering Quarto website..."
+          quarto render --verbose
+      
+      - name: List files after render
+        run: |
+          echo "Generated docs structure:"
+          ls -la docs/ || echo "docs directory not found"
+          find docs -type f | head -20 || echo "No files in docs"
+      
+      - name: Verify CSS and assets
+        run: |
+          echo "Checking for critical files:"
+          if [ -f "docs/_includes/styles.css" ]; then
+            echo "✓ CSS file found"
+            ls -la docs/_includes/styles.css
+          else
+            echo "✗ CSS file missing"
+            find docs -name "*.css" || echo "No CSS files found"
+          fi
+          
+          if [ -d "docs/images" ]; then
+            echo "✓ Images directory found"
+            ls -la docs/images/ | head -10
+          else
+            echo "✗ Images directory missing"
+          fi
+      
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v3
+      
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+        
+      - name: Output deployment URL
+        run: |
+          echo "Website deployed to: ${{ steps.deployment.outputs.page_url }}"
