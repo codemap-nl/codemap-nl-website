@@ -1,6 +1,6 @@
 ---
 title: "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)"
-subtitle: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way."
+subtitle: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands"
 page-layout: custom
 toc: false
 ---
@@ -9,9 +9,9 @@ toc: false
 
 ::: {.hero-section}
 ::: {.hero-content}
-# We are the\<br\>Coding Club {.hero-title}
+# Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP) {.hero-title}
 
-Everybody can learn to code {.hero-subtitle}
+Strengthening the field of infectious disease modelling and data analysis in the Netherlands {.hero-subtitle}
 
 Founded with the belief that coding is amazing, meaningful, well-rewarded, and easy to learn. We provide our community with a platform for learning and developing coding skills for multiple purposes. {.hero-description}
 
