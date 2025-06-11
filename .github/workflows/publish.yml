@@ -72,6 +72,11 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
       
+      - name: Create .nojekyll file
+        run: |
+          echo "Creating .nojekyll file to disable Jekyll processing"
+          touch docs/.nojekyll
+          
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
