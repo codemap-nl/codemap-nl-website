@@ -1,4 +1,234 @@
-.Rproj.user
+# ============================================================================
+# QUARTO SPECIFIC
+# ============================================================================
+
+# Quarto rendered output
+_site/
+_book/
+
+# Quarto working directories  
+/.quarto/
+.quarto/
+
+# Quarto cache and temporary files
+*_cache/
+*_files/
+
+# Quarto publish records
+_publish.yml
+
+# ============================================================================
+# OPERATING SYSTEM FILES
+# ============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# R AND RSTUDIO SPECIFIC
+# ============================================================================
+
+# RStudio project files
+*.Rproj
+.Rproj.user/
+
+# R data files
+*.RData
+*.Rdata
+*.rda
+*.rds
+
+# R history and workspace
 .Rhistory
 .RData
 .Ruserdata
+
+# R temporary files
+*.Rout
+*.Rcheck/
+.Rapp.history
+
+# R package development
+*.tar.gz
+*.tgz
+/check/
+/src/*.o
+/src/*.so
+/src/*.dll
+
+# R environment management
+renv/
+renv.lock
+.Rprofile
+
+# ============================================================================
+# EDITOR AND IDE FILES
+# ============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Atom
+.atom/
+
+# ============================================================================
+# LOGS AND TEMPORARY FILES
+# ============================================================================
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# ============================================================================
+# WEB DEVELOPMENT
+# ============================================================================
+
+# Node.js (if you add any build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager files (only if you add them later)
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# ENVIRONMENT AND CONFIGURATION
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Configuration files with secrets
+config.json
+secrets.json
+credentials.json
+
+# ============================================================================
+# DESIGN AND MEDIA FILES
+# ============================================================================
+
+# Design working files (keep original images, exclude working files)
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+
+# Large media files (uncomment if you want to exclude)
+# *.mp4
+# *.avi
+# *.mov
+
+# Image working directories
+images/originals/
+images/working/
+design/
+
+# ============================================================================
+# DEPLOYMENT PLATFORMS
+# ============================================================================
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel
+
+# GitHub Pages build (gh-pages branch is usually separate)
+# gh-pages/
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+
+# Draft content
+drafts/
+_drafts/
+
+# Archive folders
+archive/
+old/
+
+# ============================================================================
+# CUSTOM PROJECT FILES
+# ============================================================================
+
+# Personal notes
+notes.md
+TODO.md
+NOTES.txt
+
+# Local development
+local/
+private/
+
+# Backup files
+*.backup
+backup/
