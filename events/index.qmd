@@ -3,9 +3,9 @@ title: "Events"
 format: html
 ---
 
-# Upcoming Events
+## Upcoming Events
 
-## TBD
+- There are currently no upcoming events. Stay tuned!
 
 <!-- ### Introduction to Python -->
 <!-- **Date:** March 15, 2025   -->
@@ -36,21 +36,21 @@ format: html
 
 ## Past Events
 
-### 3 March 2025: Mpox and HIV/STI Modelling meeting
+- **3 March 2025:** Mpox and HIV/STI Modelling meeting
 
-### 13-14 February 2025: The Future of Nowcasting Infectious Diseases 
+- **13-14 February 2025:** The Future of Nowcasting Infectious Diseases 
 
-###	22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)
+-	**22 November 2024:** Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)
 
-### 6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures
+- **6 June 2024:** Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures
 
-###	8 April 2024: Mpox and HIV/STI Modelling meeting 
+-	**8 April 2024:** Mpox and HIV/STI Modelling meeting 
 
-## Event Calendar
+<!-- ## Event Calendar -->
 
-```{=html}
-<div id="calendar"></div>
-<script>
-// Add calendar integration here
-</script>
-```
+<!-- ```{=html} -->
+<!-- <div id="calendar"></div> -->
+<!-- <script> -->
+<!-- // Add calendar integration here -->
+<!-- </script> -->
+<!-- ``` -->
