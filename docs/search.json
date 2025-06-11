@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About Us",
     "section": "",
-    "text": "We are a group of enthusiastic students who are passionate about coding and data science. Our mission is to create an inclusive environment where everyone can learn programming skills, regardless of their background or experience level.\n\n\nTo advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands.\n\n\n\n\nTrain and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive\nCreate a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field\nSupport infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of infectious disease control during times of crisis."
+    "text": "To advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands."
   },
   {
     "objectID": "about.html#our-mission",
@@ -24,8 +24,8 @@
     "objectID": "about.html#our-vision",
     "href": "about.html#our-vision",
     "title": "About Us",
-    "section": "",
-    "text": "Train and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive\nCreate a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field\nSupport infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of infectious disease control during times of crisis."
+    "section": "Our Vision",
+    "text": "Our Vision\n\nTrain and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive.\nCreate a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field.\nSupport infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of infectious disease control during times of crisis."
   },
   {
     "objectID": "quarto_coding_club.html#what-we-offer",
@@ -46,6 +46,41 @@
     "href": "index.html#what-we-offer",
     "title": "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)",
     "section": "What We Offer",
-    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nWe are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description} [Learn More](about.qmd){.card-link}\n\n\n\n\n📊\n\n\nBoost your skills\nDevelop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description} [Start Learning](learn/index.qmd){.card-link}\n\n\n\n\n🎓\n\n\nCertifications & Resources\nGet free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description} [Browse Resources](resources/index.qmd){.card-link}\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description} [View Events](events/index.qmd){.card-link}"
+    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nCODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. {.card-description} [Learn More](about.qmd){.card-link}\n\n\n\n\n📊\n\n\nNews\nKeep up to date on our projects. {.card-description} [Stay up-to-date](news/index.qmd){.card-link}\n\n\n\n\n🎓\n\n\nResources\nGet access to our materials and resources. {.card-description} [Browse Resources](resources/index.qmd){.card-link}\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events and workshops. {.card-description} [View Events](events/index.qmd){.card-link}"
+  },
+  {
+    "objectID": "members/index.html",
+    "href": "members/index.html",
+    "title": "Member Organizations",
+    "section": "",
+    "text": "CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad."
+  },
+  {
+    "objectID": "members/index.html#all-partner-organizations",
+    "href": "members/index.html#all-partner-organizations",
+    "title": "Member Organizations",
+    "section": "All Partner Organizations",
+    "text": "All Partner Organizations\n\nOur Network at a Glance\n\n\n20 {.stat-number} Partner Organizations {.stat-label}\n\n\n8 {.stat-number} Universities {.stat-label}\n\n\n5 {.stat-number} Medical Centers {.stat-label}\n\n\n7 {.stat-number} Research Insitutes & Government Agencies {.stat-label}\n\n\n\n\nUniversities\nWageningen University and Research (WUR) TU Eindhoven TU Delft Vrije Universiteit (VU) Universiteit Twente Tilburg Universiteit Rijksuniversiteit Groningen (RUG) Universiteit van Amsterdam (UvA) London School of Hygiene and Tropical Medicine (LSHTM)\n\n\n\n\n\nUniversity of Amsterdam\n\n\n\n\n\n\n\nUtrecht University\n\n\n\n\n\n\n\nLeiden UMC\n\n\n\n\n\n\n\nAmsterdam UMC\n\n\n\n\n\n\n\nAcademic Medical Centers\nErasmus MC Radboud UMC Universitair Medisch Centrum Utrecht (UMCU) Leiden Universitair Medisch Centrum (LUMC) Amsterdam UMC\n\n\nResearch Institutes & Government Agencies\nTNO RIVM LCPS Centraal Bureau voor de Statistiek (CBS) Sociaal en Cultureel Planbureau (SCP) VWS (Ministry of Health, Welfare and Sport)\n\n\n\n\n\nRIVM\n\n\n\n\n\n\n\nCWI\n\n\n\n\n\n\n\nTNO"
+  },
+  {
+    "objectID": "members/index.html#how-to-join",
+    "href": "members/index.html#how-to-join",
+    "title": "Member Organizations",
+    "section": "How to Join",
+    "text": "How to Join\nInterested in joining our collaborative platform? Contact us!\n\nWebsite: Collaborative Platform for Epidemic Modelling and Data Analytics\nLinkedIn group: Epidemic Modelling and Data Analytics\nEmail: collabforepidemodatanalytics [AT] rivm.nl"
+  },
+  {
+    "objectID": "about.html#partner-organizations",
+    "href": "about.html#partner-organizations",
+    "title": "About Us",
+    "section": "Partner Organizations",
+    "text": "Partner Organizations\nCODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. For more details, see our Members page"
+  },
+  {
+    "objectID": "news/index.html",
+    "href": "news/index.html",
+    "title": "News",
+    "section": "",
+    "text": "This site is still under development. Stay tuned!"
   }
 ]
