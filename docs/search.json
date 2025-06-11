@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Events",
+    "section": "",
+    "text": "# Upcoming Events\n\n## TBD\n\n&lt;!-- ### Introduction to Python --&gt;\n&lt;!-- **Date:** March 15, 2025   --&gt;\n&lt;!-- **Time:** 2:00 PM - 4:00 PM   --&gt;\n&lt;!-- **Location:** Computer Lab A   --&gt;\n\n&lt;!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n&lt;!-- ### R for Data Visualization --&gt;\n&lt;!-- **Date:** March 22, 2025   --&gt;\n&lt;!-- **Time:** 1:00 PM - 3:00 PM   --&gt;\n&lt;!-- **Location:** Data Science Lab   --&gt;\n\n&lt;!-- Create beautiful charts and graphs using ggplot2. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n&lt;!-- ### Web Development Bootcamp --&gt;\n&lt;!-- **Date:** March 29, 2025   --&gt;\n&lt;!-- **Time:** 10:00 AM - 4:00 PM   --&gt;\n&lt;!-- **Location:** Innovation Hub   --&gt;\n\n&lt;!-- Full-day intensive workshop covering HTML, CSS, and JavaScript. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n## Past Events\n\n### 3 March 2025: Mpox and HIV/STI Modelling meeting\n\n### 13-14 February 2025: The Future of Nowcasting Infectious Diseases \n\n### 22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n\n### 6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n\n### 8 April 2024: Mpox and HIV/STI Modelling meeting \n\n## Event Calendar\n\n```{=html}\n&lt;div id=\"calendar\"&gt;&lt;/div&gt;\n&lt;script&gt;\n// Add calendar integration here\n&lt;/script&gt;"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "We are a group of enthusiastic students who are passionate about coding and data science. Our mission is to create an inclusive environment where everyone can learn programming skills, regardless of their background or experience level.\n\n\nTo advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands.\n\n\n\n\nTrain and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive\nCreate a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field\nSupport infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of infectious disease control during times of crisis."
+  },
+  {
+    "objectID": "about.html#our-mission",
+    "href": "about.html#our-mission",
+    "title": "About Us",
+    "section": "",
+    "text": "To advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands."
+  },
+  {
+    "objectID": "about.html#our-vision",
+    "href": "about.html#our-vision",
+    "title": "About Us",
+    "section": "",
+    "text": "Train and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive\nCreate a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field\nSupport infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of infectious disease control during times of crisis."
+  },
+  {
+    "objectID": "quarto_coding_club.html#what-we-offer",
+    "href": "quarto_coding_club.html#what-we-offer",
+    "title": "Coding Club",
+    "section": "What We Offer",
+    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nWe are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📊\n\n\nBoost your skills\nDevelop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🎓\n\n\nCertifications & Resources\nGet free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description}"
+  },
+  {
+    "objectID": "quarto_coding_club.html#learning-resources",
+    "href": "quarto_coding_club.html#learning-resources",
+    "title": "Coding Club",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\n\n\n🐍\n\n\nPython Programming\n\n\nLearn Python from basics to advanced data science applications\n\n\n\n\n📈\n\n\nR for Data Science\n\n\nMaster statistical analysis and visualization with R\n\n\n\n\n🌐\n\n\nWeb Development\n\n\nBuild modern websites with HTML, CSS, and JavaScript\n\n\n\n\n🤖\n\n\nMachine Learning\n\n\nExplore AI and ML algorithms for real-world applications\n\n\n\n\n\n\nAbout Coding Club\nWe believe coding is for everyone. Join our community and start your coding journey today with supportive peers and comprehensive resources.\n\n\nQuick Links\nLearn to Code Upcoming Events Free Resources Get in Touch\n\n\nLanguages & Tools\nPython Tutorials R Programming Data Science Web Development\n\n\nConnect\n📧 Email 💬 Discord 🐙 GitHub 📱 Twitter\n\n\n\n© 2025 Coding Club. Licensed under Creative Commons Attribution-NonCommercial 4.0 International License."
+  },
+  {
+    "objectID": "index.html#what-we-offer",
+    "href": "index.html#what-we-offer",
+    "title": "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)",
+    "section": "What We Offer",
+    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nWe are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description} [Learn More](about.qmd){.card-link}\n\n\n\n\n📊\n\n\nBoost your skills\nDevelop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description} [Start Learning](learn/index.qmd){.card-link}\n\n\n\n\n🎓\n\n\nCertifications & Resources\nGet free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description} [Browse Resources](resources/index.qmd){.card-link}\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description} [View Events](events/index.qmd){.card-link}"
+  }
+]
