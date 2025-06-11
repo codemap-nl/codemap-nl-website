@@ -3,20 +3,21 @@ title: "About Us"
 subtitle: ""
 ---
 
-# Who We Are
-
-We are a group of enthusiastic students who are passionate about coding and data science. Our mission is to create an inclusive environment where everyone can learn programming skills, regardless of their background or experience level.
-
 ## Our Mission
 
 To advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands.
 
 ## Our Vision
 
--	Train and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive 
--	Create a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field
+-	Train and expand capacity by empowering a next generation of researchers to fulfill their professional potential in infectious disease modelling and data analytics in a setting that is welcoming and inclusive.
+
+-	Create a professional network with connections between and among different scientific disciplines to share and exchange knowledge, to innovate, and to accelerate progress in the science behind controlling the spread of infections and develop visibility of the field.
+
 -	Support infrastructure and coordinate a dynamic capacity dedicated to collaboration, innovative research, teaching, mentoring such as to be prepared for trusted advice, in a transparent way, for policy makers in the field of  infectious disease control during times of crisis.
 
+## Partner Organizations
+
+CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. For more details, see our [Members page](members/index.qmd){.btn .btn-primary}
 
 <!-- \[Get Started\](learn/index.qmd){.btn .btn-primary} -->
 <!-- \[Contact Us\](contact.qmd){.btn .btn-outline} -->
