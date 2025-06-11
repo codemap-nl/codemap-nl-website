@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)"
+  title: "CODEMAP"
   site-url: "https://codemap-nl.github.io/codemap-nl-website/"
   repo-url: "https://github.com/codemap-nl/codemap-nl-website"
   repo-actions: [edit, issue]
@@ -13,7 +13,7 @@ website:
   navbar:
     background: "rgba(255, 255, 255, 0.95)"
     foreground: "#333"
-    logo: "images/logo/EMDA_logo.png"
+    logo: "images/logos/EMDA_logo.png"
     logo-alt: "CODEMAP Logo"
     left:
       - href: index.qmd
@@ -29,11 +29,15 @@ website:
       - href: news/index.qmd
         text: News
     
-    # tools:
-    #   - icon: github
-    #     href: https://github.com/codemap-nl
-    #   - icon: globe
-    #     href: https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en
+    tools:
+      - icon: github
+        href: https://github.com/codemap-nl
+      - icon: linkedin
+        href: https://www.linkedin.com/groups/13094435/
+      - icon: globe
+        href: https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en
+      - icon: envelope
+        href: mailto:collabforepidemodatanalytics@rivm.nl
   page-footer:
     left: |
       © 2025 CODEMAP-NL. Licensed under Creative Commons 
@@ -51,9 +55,8 @@ website:
 format:
   html:
     theme: cosmo
-      # - custom.scss
     css: _includes/styles.css
-    include-after-body: _includes/scripts.html
+    #include-after-body: _includes/scripts.html
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
