@@ -7,12 +7,14 @@ website:
   site-url: "https://codemap-nl.github.io/codemap-nl-website/"
   repo-url: "https://github.com/codemap-nl/codemap-nl-website"
   repo-actions: [edit, issue]
-  description: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way."
+  # description: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way."
   favicon: images/favicon.ico
   
   navbar:
     background: "rgba(255, 255, 255, 0.95)"
     foreground: "#333"
+    logo: "images/logo/EMDA_logo.png"
+    logo-alt: "CODEMAP Logo"
     left:
       - href: index.qmd
         text: Home
@@ -24,14 +26,14 @@ website:
         text: Events
       - href: resources/index.qmd
         text: Resources
-      - href: news.qmd
+      - href: news/index.qmd
         text: News
     
-    tools:
-      - icon: github
-        href: https://github.com/codemap-nl
-      - icon: globe
-        href: https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en
+    # tools:
+    #   - icon: github
+    #     href: https://github.com/codemap-nl
+    #   - icon: globe
+    #     href: https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en
   page-footer:
     left: |
       © 2025 CODEMAP-NL. Licensed under Creative Commons 
@@ -48,11 +50,10 @@ website:
 
 format:
   html:
-    theme: 
-      - cosmo
-      - custom.scss
-    css: 
-      - styles.css
+    theme: cosmo
+      # - custom.scss
+    css: _includes/styles.css
+    include-after-body: _includes/scripts.html
     toc: false
     smooth-scroll: true
     link-external-newwindow: true
