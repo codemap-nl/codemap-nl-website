@@ -17,7 +17,30 @@ To advance knowledge and expand capacity in the field of infectious disease mode
 
 ## Partner Organizations
 
-CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. For more details, see our [Members page](members/index.qmd){.btn .btn-primary}
+CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. Below is a list of participating institutions. For more details, see our [Members page](members/index.qmd){.btn .btn-primary}
+
+- Universiteit Utrecht (UU) 
+- Wageningen University and Research (WUR) 
+- Erasmus MC 
+- Radboud UMC 
+- TU Eindhoven 
+- TU Delft 
+- TNO 
+- Vrije Universiteit (VU) 
+- Universitair Medisch Centrum Utrecht (UMCU) 
+- Leiden Universitair Medisch Centrum (LUMC) 
+- Amsterdam UMC 
+- Universiteit Twente 
+- Tilburg Universiteit 
+- Rijksuniversiteit Groningen (RUG) 
+- Universiteit van Amsterdam (UvA) 
+- Centraal Bureau voor de Statistiek (CBS) 
+- Sociaal en Cultureel Planbureau (SCP)
+- Landelijk Coördinatie Centrum Patiëntenspreiding (LCPS)
+- London School of Hygiene and Tropical Medicine (LSHTM) 
+- VWS
+- RIVM
+
 
 <!-- \[Get Started\](learn/index.qmd){.btn .btn-primary} -->
 <!-- \[Contact Us\](contact.qmd){.btn .btn-outline} -->
