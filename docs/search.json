@@ -4,7 +4,7 @@
     "href": "events/index.html",
     "title": "Events",
     "section": "",
-    "text": "# Upcoming Events\n\n## TBD\n\n&lt;!-- ### Introduction to Python --&gt;\n&lt;!-- **Date:** March 15, 2025   --&gt;\n&lt;!-- **Time:** 2:00 PM - 4:00 PM   --&gt;\n&lt;!-- **Location:** Computer Lab A   --&gt;\n\n&lt;!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n&lt;!-- ### R for Data Visualization --&gt;\n&lt;!-- **Date:** March 22, 2025   --&gt;\n&lt;!-- **Time:** 1:00 PM - 3:00 PM   --&gt;\n&lt;!-- **Location:** Data Science Lab   --&gt;\n\n&lt;!-- Create beautiful charts and graphs using ggplot2. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n&lt;!-- ### Web Development Bootcamp --&gt;\n&lt;!-- **Date:** March 29, 2025   --&gt;\n&lt;!-- **Time:** 10:00 AM - 4:00 PM   --&gt;\n&lt;!-- **Location:** Innovation Hub   --&gt;\n\n&lt;!-- Full-day intensive workshop covering HTML, CSS, and JavaScript. --&gt;\n\n&lt;!-- [Register Now](#){.btn .btn-primary} --&gt;\n\n## Past Events\n\n### 3 March 2025: Mpox and HIV/STI Modelling meeting\n\n### 13-14 February 2025: The Future of Nowcasting Infectious Diseases \n\n### 22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n\n### 6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n\n### 8 April 2024: Mpox and HIV/STI Modelling meeting \n\n## Event Calendar\n\n```{=html}\n&lt;div id=\"calendar\"&gt;&lt;/div&gt;\n&lt;script&gt;\n// Add calendar integration here\n&lt;/script&gt;"
+    "text": "There are currently no upcoming events. Stay tuned!"
   },
   {
     "objectID": "about.html",
@@ -44,7 +44,7 @@
   {
     "objectID": "index.html#what-we-offer",
     "href": "index.html#what-we-offer",
-    "title": "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)",
+    "title": "CODEMAP",
     "section": "What We Offer",
     "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nCODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. {.card-description} [Learn More](about.qmd){.card-link}\n\n\n\n\n📊\n\n\nNews\nKeep up to date on our projects. {.card-description} [Stay up-to-date](news/index.qmd){.card-link}\n\n\n\n\n🎓\n\n\nResources\nGet access to our materials and resources. {.card-description} [Browse Resources](resources/index.qmd){.card-link}\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events and workshops. {.card-description} [View Events](events/index.qmd){.card-link}"
   },
@@ -74,7 +74,7 @@
     "href": "about.html#partner-organizations",
     "title": "About Us",
     "section": "Partner Organizations",
-    "text": "Partner Organizations\nCODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. For more details, see our Members page"
+    "text": "Partner Organizations\nCODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. Below is a list of participating institutions. For more details, see our Members page\n\nUniversiteit Utrecht (UU)\nWageningen University and Research (WUR)\nErasmus MC\nRadboud UMC\nTU Eindhoven\nTU Delft\nTNO\nVrije Universiteit (VU)\nUniversitair Medisch Centrum Utrecht (UMCU)\nLeiden Universitair Medisch Centrum (LUMC)\nAmsterdam UMC\nUniversiteit Twente\nTilburg Universiteit\nRijksuniversiteit Groningen (RUG)\nUniversiteit van Amsterdam (UvA)\nCentraal Bureau voor de Statistiek (CBS)\nSociaal en Cultureel Planbureau (SCP)\nLandelijk Coördinatie Centrum Patiëntenspreiding (LCPS)\nLondon School of Hygiene and Tropical Medicine (LSHTM)\nVWS\nRIVM"
   },
   {
     "objectID": "news/index.html",
@@ -82,5 +82,26 @@
     "title": "News",
     "section": "",
     "text": "This site is still under development. Stay tuned!"
+  },
+  {
+    "objectID": "events/index.html#upcoming-events",
+    "href": "events/index.html#upcoming-events",
+    "title": "Events",
+    "section": "",
+    "text": "There are currently no upcoming events. Stay tuned!"
+  },
+  {
+    "objectID": "events/index.html#past-events",
+    "href": "events/index.html#past-events",
+    "title": "Events",
+    "section": "Past Events",
+    "text": "Past Events\n\n3 March 2025: Mpox and HIV/STI Modelling meeting\n13-14 February 2025: The Future of Nowcasting Infectious Diseases\n22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n8 April 2024: Mpox and HIV/STI Modelling meeting"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introducing CODEMAP",
+    "section": "",
+    "text": "Collaborative Dutch Epidemic Modelling and Data Analytics Platform"
   }
 ]

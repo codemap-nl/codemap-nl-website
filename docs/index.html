@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)</title>
+<title>CODEMAP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,10 +81,10 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/logo/EMDA_logo.png" alt="CODEMAP Logo" class="navbar-logo">
+    <img src="./images/logos/EMDA_logo.png" alt="CODEMAP Logo" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)</span>
+    <span class="navbar-title">CODEMAP</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -119,7 +119,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/codemap-nl" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.linkedin.com/groups/13094435/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-globe"></i></a>
+    <a href="mailto:collabforepidemodatanalytics@rivm.nl" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -133,994 +137,92 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-:root {
-    --primary-color: #2563eb;
-    --secondary-color: #667eea;
-    --accent-color: #764ba2;
-    --text-dark: #1e293b;
-    --text-light: #64748b;
-    --background-light: #f8fafc;
-    --success-color: #10b981;
-    --warning-color: #f59e0b;
-    --error-color: #ef4444;
-}
-
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
-    color: var(--text-dark);
-    margin: 0;
-    padding: 0;
-}
-
-/* Hero Section */
-.hero-section {
-    min-height: 90vh;
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    padding: 2rem;
-}
-
-.hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternunits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"></path></pattern></defs><rect width="100" height="100" fill="url(%23grid)"></rect></svg>');
-    opacity: 0.3;
-}
-
-.hero-content {
-    z-index: 2;
-    max-width: 800px;
-}
-
-.hero-title {
-    font-size: 4rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    animation: fadeInUp 1s ease forwards;
-}
-
-.hero-subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    animation: fadeInUp 1s ease 0.2s both;
-}
-
-.hero-description {
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-    animation: fadeInUp 1s ease 0.4s both;
-    opacity: 0.9;
-}
-
-.cta-button {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    transition: all 0.3s ease;
-    animation: fadeInUp 1s ease 0.6s both;
-}
-
-.cta-button:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
-    color: white;
-    text-decoration: none;
-}
-
-/* Quote Section */
-.quote-section {
-    background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
-    padding: 6rem 2rem;
-    text-align: center;
-    color: white;
-    margin: 0;
-}
-
-.quote-text {
-    font-size: 2rem;
-    font-weight: 300;
-    line-height: 1.4;
-    margin-bottom: 2rem;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.quote-logo {
-    width: 80px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto 0;
-    font-size: 2rem;
-}
-
-/* Cards Section */
-.cards-section {
-    padding: 6rem 2rem;
-    background: var(--background-light);
-    margin: 0;
-}
-
-.section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-    color: var(--text-dark);
-}
-
-.cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.feature-card {
-    background: white;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    cursor: pointer;
-    position: relative;
-}
-
-.feature-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-}
-
-.card-header {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 3rem;
-    position: relative;
-}
-
-.card-header.team { background: linear-gradient(45deg, #667eea, #764ba2); }
-.card-header.skills { background: linear-gradient(45deg, #276dc3, #165ba8); }
-.card-header.resources { background: linear-gradient(45deg, #ff6b6b, #4ecdc4); }
-.card-header.events { background: linear-gradient(45deg, #f7df1e, #323330); color: #323330; }
-
-.card-content {
-    padding: 2rem;
-}
-
-.card-title {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: var(--text-dark);
-}
-
-.card-description {
-    color: var(--text-light);
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-}
-
-.card-link {
-    display: inline-block;
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border: 2px solid var(--primary-color);
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-}
-
-.card-link:hover {
-    background: var(--primary-color);
-    color: white;
-    text-decoration: none;
-}
-
-.card-dots {
-    display: flex;
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-
-.dot {
-    width: 8px;
-    height: 8px;
-    background: #e2e8f0;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
-}
-
-.dot:nth-child(2) { animation-delay: 0.2s; }
-.dot:nth-child(3) { animation-delay: 0.4s; }
-
-/* Learning Grid */
-.learning-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.learning-card {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    border-left: 4px solid var(--primary-color);
-}
-
-.learning-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-
-.learning-card h2 {
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-.learning-card h3 {
-    color: var(--text-light);
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 1rem 0 0.5rem 0;
-}
-
-.learning-card ul {
-    color: var(--text-light);
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-}
-
-/* Resources Grid */
-.resources-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin: 3rem 0;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.resource-item {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    text-align: center;
-}
-
-.resource-item:hover {
-    transform: translateY(-5px);
-}
-
-.resource-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
-}
-
-.resource-title {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: var(--text-dark);
-    font-size: 1.1rem;
-}
-
-.resource-description {
-    color: var(--text-light);
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    cursor: pointer;
-    font-size: 0.95rem;
-    text-align: center;
-    margin: 0.25rem;
-}
-
-.btn-primary {
-    background: var(--primary-color);
-    color: white;
-    border-color: var(--primary-color);
-}
-
-.btn-primary:hover {
-    background: #1d4ed8;
-    border-color: #1d4ed8;
-    color: white;
-    text-decoration: none;
-    transform: translateY(-2px);
-}
-
-.btn-outline {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    background: transparent;
-}
-
-.btn-outline:hover {
-    background: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    transform: translateY(-2px);
-}
-
-.btn-success {
-    background: var(--success-color);
-    color: white;
-    border-color: var(--success-color);
-}
-
-.btn-success:hover {
-    background: #059669;
-    border-color: #059669;
-    color: white;
-    transform: translateY(-2px);
-}
-
-/* Forms */
-.newsletter-form,
-.suggestion-form {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    margin: 2rem 0;
-}
-
-.newsletter-form {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-.suggestion-form {
-    display: grid;
-    gap: 1rem;
-}
-
-.newsletter-form input,
-.suggestion-form input,
-.suggestion-form textarea {
-    padding: 0.75rem 1rem;
-    border: 2px solid #e5e7eb;
-    border-radius: 6px;
-    font-family: inherit;
-    transition: border-color 0.3s ease;
-}
-
-.newsletter-form input {
-    flex: 1;
-}
-
-.newsletter-form input:focus,
-.suggestion-form input:focus,
-.suggestion-form textarea:focus {
-    outline: none;
-    border-color: var(--primary-color);
-}
-
-.newsletter-form button,
-.suggestion-form button {
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.newsletter-form button:hover,
-.suggestion-form button:hover {
-    background: #1d4ed8;
-}
-
-/* Event Cards */
-.event-card {
-    background: white;
-    border-radius: 12px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border-left: 4px solid var(--primary-color);
-}
-
-.event-card h3 {
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-}
-
-.event-meta {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-    color: var(--text-light);
-}
-
-.event-meta span {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-/* Code Blocks */
-pre {
-    background: #f8fafc;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    padding: 1.5rem;
-    overflow-x: auto;
-    margin: 1.5rem 0;
-}
-
-code {
-    font-family: 'Monaco', 'Consolas', monospace;
-    background: #f1f5f9;
-    padding: 0.2rem 0.4rem;
-    border-radius: 4px;
-    font-size: 0.9em;
-}
-
-pre code {
-    background: none;
-    padding: 0;
-}
-
-/* Page Headers */
-.page-header {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
-    color: white;
-    padding: 4rem 2rem 2rem;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.page-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.page-header .subtitle {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-
-/* Navigation Enhancements */
-.navbar {
-    backdrop-filter: blur(10px);
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Footer */
-.footer {
-    background: var(--text-dark);
-    color: white;
-    padding: 3rem 2rem 2rem;
-    margin: 0;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-section h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.footer-section p,
-.footer-section a {
-    color: #94a3b8;
-    text-decoration: none;
-    line-height: 1.8;
-    margin-bottom: 0.5rem;
-    display: block;
-}
-
-.footer-section a:hover {
-    color: white;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px solid #334155;
-    color: #64748b;
-}
-
-/* Animations */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes pulse {
-    0%, 100% {
-        opacity: 0.4;
-        transform: scale(1);
-    }
-    50% {
-        opacity: 1;
-        transform: scale(1.2);
-    }
-}
-
-@keyframes slideInFromLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-/* Scroll Animation Classes */
-.scroll-reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.6s ease;
-}
-
-.scroll-reveal.revealed {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.fade-in {
-    animation: fadeInUp 0.8s ease forwards;
-}
-
-.slide-in-left {
-    animation: slideInFromLeft 0.8s ease forwards;
-}
-
-/* Utility Classes */
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
-
-.mb-1 { margin-bottom: 0.5rem; }
-.mb-2 { margin-bottom: 1rem; }
-.mb-3 { margin-bottom: 1.5rem; }
-.mb-4 { margin-bottom: 2rem; }
-
-.mt-1 { margin-top: 0.5rem; }
-.mt-2 { margin-top: 1rem; }
-.mt-3 { margin-top: 1.5rem; }
-.mt-4 { margin-top: 2rem; }
-
-.p-1 { padding: 0.5rem; }
-.p-2 { padding: 1rem; }
-.p-3 { padding: 1.5rem; }
-.p-4 { padding: 2rem; }
-
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 2.5rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1.2rem;
-    }
-    
-    .quote-text {
-        font-size: 1.5rem;
-    }
-    
-    .cards-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .learning-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .resources-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-    
-    .hero-section, .quote-section, .cards-section {
-        padding: 3rem 1rem;
-    }
-    
-    .newsletter-form {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    
-    .event-meta {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .page-header {
-        padding: 3rem 1rem 1.5rem;
-    }
-    
-    .page-header h1 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-title {
-        font-size: 2rem;
-    }
-    
-    .section-title {
-        font-size: 2rem;
-    }
-    
-    .card-content {
-        padding: 1.5rem;
-    }
-    
-    .learning-card {
-        padding: 1.5rem;
-    }
-    
-    .resource-item {
-        padding: 1rem;
-    }
-}
-
-/* Print Styles */
-@media print {
-    .hero-section,
-    .quote-section {
-        background: none !important;
-        color: black !important;
-    }
-    
-    .card-header {
-        background: #f8fafc !important;
-        color: black !important;
-    }
-    
-    .btn {
-        border: 2px solid black !important;
-        background: none !important;
-        color: black !important;
-    }
-}
-
-/* High Contrast Mode Support */
-@media (prefers-contrast: high) {
-    .hero-section,
-    .quote-section,
-    .card-header {
-        background: black !important;
-        color: white !important;
-    }
-    
-    .feature-card,
-    .learning-card,
-    .resource-item {
-        border: 2px solid black;
-    }
-}
-
-/* Partner Organization Logo Styles */
-.logo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin: 3rem 0;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo-item {
-    background: white;
-    border-radius: 12px;
-    padding: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 120px;
-    position: relative;
-    overflow: hidden;
-}
-
-.logo-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-}
-
-.logo-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.logo-item:hover::before {
-    opacity: 1;
-}
-
-.logo-item img {
-    max-width: 100%;
-    max-height: 80px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    filter: grayscale(20%);
-    transition: filter 0.3s ease;
-}
-
-.logo-item:hover img {
-    filter: grayscale(0%);
-}
-
-/* Stats Section for Partner Page */
-.stats-section {
-    background: white;
-    border-radius: 16px;
-    padding: 3rem;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    margin: 3rem 0;
-}
-
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.stat-item {
-    padding: 1rem;
-}
-
-.stat-number {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    display: block;
-}
-
-.stat-label {
-    color: var(--text-light);
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-}
-
-/* Logo Marquee for Homepage */
-.logo-marquee {
-    overflow: hidden;
-    white-space: nowrap;
-    background: white;
-    padding: 2rem 0;
-    margin: 3rem 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-}
-
-.logo-marquee-content {
-    display: inline-block;
-    animation: marquee 30s linear infinite;
-}
-
-.logo-marquee .logo-item {
-    display: inline-block;
-    margin: 0 2rem;
-    background: none;
-    box-shadow: none;
-    padding: 1rem;
-    min-height: auto;
-}
-
-.logo-marquee .logo-item img {
-    max-height: 50px;
-    opacity: 0.8;
-}
-
-.logo-marquee .logo-item:hover img {
-    opacity: 1;
-}
-
-@keyframes marquee {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
-
-/* Compact Logo Grid Variant */
-.logo-grid-compact {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.logo-grid-compact .logo-item {
-    padding: 1.5rem;
-    min-height: 100px;
-}
-
-.logo-grid-compact .logo-item img {
-    max-height: 60px;
-}
-
-/* Partner Categories Styling */
-.category-section {
-    margin-bottom: 4rem;
-}
-
-.category-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 2rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--primary-color);
-    display: inline-block;
-}
-
-/* Responsive Partner Logos */
-@media (max-width: 768px) {
-    .logo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1rem;
-    }
-    
-    .logo-grid-compact {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    }
-    
-    .logo-item {
-        padding: 1.5rem;
-        min-height: 100px;
-    }
-    
-    .logo-item img {
-        max-height: 60px;
-    }
-    
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    
-    .stat-number {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    
-    .logo-item {
-        padding: 1rem;
-        min-height: 80px;
-    }
-    
-    .logo-item img {
-        max-height: 40px;
-    }
-    
-    .stats-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Reduced Motion Support */
-@media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-    }
-    
-    .logo-marquee-content {
-        animation: none;
-    }
-}
-</style>
 <div class="hero-section">
-<section id="collaborative-dutch-epidemic-modelling-and-data-analytics-platform-codemap" class="level1 hero-title hero-content">
-<h1 class="hero-title">Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)</h1>
-<!--  {.hero-subtitle} -->
-<p>Strengthening the field of infectious disease modelling and data analysis in the Netherlands {.hero-description} <!--#  --> <a href="./about.html" class="cta-button">Learn more</a></p>
-</section>
+  <div class="hero-content">
+    <h1 class="hero-title">Introducing CODEMAP</h1>
+    <p class="hero-subtitle" style="font-size: 2rem;">Collaborative Dutch Epidemic Modelling and Data Analytics Platform</p>
+    <p class="hero-description">
+      Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way.
+    </p>
+    <a href="./members/index.html" class="cta-button">Explore Our Network</a>
+  </div>
 </div>
-<div class="quote-section">
-<p>Our goal is to advance knowledge and expand capacity in the field of infectious disease modelling and data analytics, by collaborating, innovating, and training, with the goal of being prepared for pandemics in the Netherlands. {.quote-text}</p>
-<!-- ::: {.quote-logo} -->
-<!-- 💻 -->
-<!-- ::: -->
+<div class="logo-marquee">
+  <div class="logo-marquee-content">
+    <div class="logo-item">
+      <img src="images/logos/RIVM.png" alt="RIVM" style="max-height: 70px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UvA_logo.jpg" alt="University of Amsterdam" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UU.png" alt="Utrecht University" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LUMC.jpg" alt="LUMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VU.png" alt="Vrije Universiteit" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TNO.jpg" alt="TNO" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/WUR.png" alt="Wageningen University and Research" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LSHTM.jpg" alt="London School of Hygiene and Tropical Medicine" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UMC Utrecht.png" alt="UMC Utrecht" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Amsterdam UMC.png" alt="Amsterdam UMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Eindhoven.png" alt="TU Eindhoven" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Universiteit Twente.png" alt="Universiteit Twente" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/RUG.jpg" alt="RUG" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/SCP.png" alt="SCP" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/cbs_logo.jpg" alt="VWS" style="max-height: 60px;">
+    </div>
+  </div>
 </div>
+
+<!-- We're missing LCPS logo -->
 <div id="about" class="cards-section">
-<section id="what-we-offer" class="level2 section-title">
-<h2 class="section-title" data-anchor-id="what-we-offer">What We Offer</h2>
+<!-- ## What We Offer {.section-title} -->
 <div class="cards-grid">
 <div class="feature-card">
 <div class="card-header team">
 <p>👥</p>
 </div>
-<section id="who-are-we" class="level3 card-title card-content">
-<h3 class="card-title" data-anchor-id="who-are-we">Who are we?</h3>
-<p>CODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. {.card-description} [Learn More](about.qmd){.card-link}</p>
+<section id="who-we-are" class="level3 card-title card-content">
+<h3 class="card-title" data-anchor-id="who-we-are">Who we are</h3>
+<p>CODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. {.card-description} <a href="./about.html" class="card-link">Learn more</a></p>
 </section>
 </div>
 <div class="feature-card">
@@ -1129,7 +231,8 @@ pre code {
 </div>
 <section id="news" class="level3 card-title card-content">
 <h3 class="card-title" data-anchor-id="news">News</h3>
-<p>Keep up to date on our projects. {.card-description} [Stay up-to-date](news/index.qmd){.card-link}</p>
+<p>Keep up to date on our projects.</p>
+<p><a href="./news/index.html" class="card-link">Stay up-to-date</a></p>
 </section>
 </div>
 <div class="feature-card">
@@ -1138,7 +241,8 @@ pre code {
 </div>
 <section id="resources" class="level3 card-title card-content">
 <h3 class="card-title" data-anchor-id="resources">Resources</h3>
-<p>Get access to our materials and resources. {.card-description} [Browse Resources](resources/index.qmd){.card-link}</p>
+<p>Get access to our materials and resources.</p>
+<p><a href="./resources/index.html" class="card-link">Browse Resources</a></p>
 </section>
 </div>
 <div class="feature-card">
@@ -1147,11 +251,11 @@ pre code {
 </div>
 <section id="events-workshops" class="level3 card-title card-content">
 <h3 class="card-title" data-anchor-id="events-workshops">Events &amp; Workshops</h3>
-<p>Check our past and upcoming events and workshops. {.card-description} [View Events](events/index.qmd){.card-link}</p>
+<p>Check our past and upcoming events and workshops.</p>
+<p><a href="./events/index.html" class="card-link">View Events</a></p>
 </section>
 </div>
 </div>
-</section>
 </div>
 <script>
 // ============================================================================
