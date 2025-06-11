@@ -1,0 +1,80 @@
+---
+title: "Collaborative Dutch Epidemic Modelling and Data Analytics Platform (CODEMAP)"
+subtitle: "Strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way."
+page-layout: custom
+toc: false
+---
+
+{{< include _includes/styles.html >}}
+
+::: {.hero-section}
+::: {.hero-content}
+# We are the\<br\>Coding Club {.hero-title}
+
+Everybody can learn to code {.hero-subtitle}
+
+Founded with the belief that coding is amazing, meaningful, well-rewarded, and easy to learn. We provide our community with a platform for learning and developing coding skills for multiple purposes. {.hero-description}
+
+\[Join Our Community\](about.qmd){.cta-button}
+:::
+:::
+
+::: {.quote-section}
+Our goal as a club is to help everyone learn coding skills and show that coding is for everyone, no matter our background. {.quote-text}
+
+::: {.quote-logo}
+💻
+:::
+:::
+
+::: {.cards-section #about}
+## What We Offer {.section-title}
+
+::: {.cards-grid}
+::: {.feature-card}
+::: {.card-header .team}
+👥
+:::
+::: {.card-content}
+### Who are we? {.card-title}
+We are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description}
+\[Learn More\](about.qmd){.card-link}
+:::
+:::
+
+::: {.feature-card}
+::: {.card-header .skills}
+📊
+:::
+::: {.card-content}
+### Boost your skills {.card-title}
+Develop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description}
+\[Start Learning\](learn/index.qmd){.card-link}
+:::
+:::
+
+::: {.feature-card}
+::: {.card-header .resources}
+🎓
+:::
+::: {.card-content}
+### Certifications & Resources {.card-title}
+Get free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description}
+\[Browse Resources\](resources/index.qmd){.card-link}
+:::
+:::
+
+::: {.feature-card}
+::: {.card-header .events}
+📅
+:::
+::: {.card-content}
+### Events & Workshops {.card-title}
+Check our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description}
+\[View Events\](events/index.qmd){.card-link}
+:::
+:::
+:::
+:::
+
+{{< include _includes/scripts.html >}}

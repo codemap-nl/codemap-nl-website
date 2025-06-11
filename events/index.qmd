@@ -1,0 +1,59 @@
+---
+title: "Events"
+format: html
+---
+
+```         
+# Upcoming Events
+
+## TBD
+
+<!-- ### Introduction to Python -->
+<!-- **Date:** March 15, 2025   -->
+<!-- **Time:** 2:00 PM - 4:00 PM   -->
+<!-- **Location:** Computer Lab A   -->
+
+<!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
+
+<!-- [Register Now](#){.btn .btn-primary} -->
+
+<!-- ### R for Data Visualization -->
+<!-- **Date:** March 22, 2025   -->
+<!-- **Time:** 1:00 PM - 3:00 PM   -->
+<!-- **Location:** Data Science Lab   -->
+
+<!-- Create beautiful charts and graphs using ggplot2. -->
+
+<!-- [Register Now](#){.btn .btn-primary} -->
+
+<!-- ### Web Development Bootcamp -->
+<!-- **Date:** March 29, 2025   -->
+<!-- **Time:** 10:00 AM - 4:00 PM   -->
+<!-- **Location:** Innovation Hub   -->
+
+<!-- Full-day intensive workshop covering HTML, CSS, and JavaScript. -->
+
+<!-- [Register Now](#){.btn .btn-primary} -->
+
+## Past Events
+
+### 3 March 2025: Mpox and HIV/STI Modelling meeting
+
+### 13-14 February 2025: The Future of Nowcasting Infectious Diseases 
+
+###	22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)
+
+### 6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures
+
+###	8 April 2024: Mpox and HIV/STI Modelling meeting 
+
+## Event Calendar
+
+```{=html}
+<div id="calendar"></div>
+<script>
+// Add calendar integration here
+</script>
+```
+
+## 
