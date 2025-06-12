@@ -4,3 +4,5 @@ format: html
 ---
 
 This site is still under development.
+
+In the meantime, please keep an eye on our [GitHub page](https://github.com/codemap-nl).
