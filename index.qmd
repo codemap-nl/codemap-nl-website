@@ -21,8 +21,9 @@ toc: false
 ```{=html}
 <div class="logo-marquee">
   <div class="logo-marquee-content">
+  <!-- First set of logos -->
     <div class="logo-item">
-      <img src="images/logos/RIVM.png" alt="RIVM" style="max-height: 70px;">
+      <img src="images/logos/RIVM.png" alt="RIVM" style="max-height: 80px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/UvA_logo.jpg" alt="University of Amsterdam" style="max-height: 60px;">
@@ -31,13 +32,13 @@ toc: false
       <img src="images/logos/UU.png" alt="Utrecht University" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 80px;">
+      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 120px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 60px;">
+      <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 75px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/LUMC.jpg" alt="LUMC" style="max-height: 60px;">
+      <img src="images/logos/LUMC.jpg" alt="LUMC" style="max-height: 70px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/VU.png" alt="Vrije Universiteit" style="max-height: 60px;">
@@ -49,7 +50,7 @@ toc: false
       <img src="images/logos/WUR.png" alt="Wageningen University and Research" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 60px;">
+      <img src="images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 65px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/LSHTM.jpg" alt="London School of Hygiene and Tropical Medicine" style="max-height: 60px;">
@@ -61,7 +62,7 @@ toc: false
       <img src="images/logos/Amsterdam UMC.png" alt="Amsterdam UMC" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 60px;">
+      <img src="images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 70px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/TU Eindhoven.png" alt="TU Eindhoven" style="max-height: 60px;">
@@ -73,10 +74,74 @@ toc: false
       <img src="images/logos/RUG.jpg" alt="RUG" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/SCP.png" alt="SCP" style="max-height: 60px;">
+      <img src="images/logos/SCP.png" alt="SCP" style="max-height: 90px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 70px;">
+      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 90px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/cbs_logo.jpg" alt="VWS" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/lcps.png" alt="LCPS" style="max-height: 60px;">
+    </div>
+    <!-- Second set of logos -->
+     <div class="logo-item">
+      <img src="images/logos/RIVM.png" alt="RIVM" style="max-height: 80px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UvA_logo.jpg" alt="University of Amsterdam" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UU.png" alt="Utrecht University" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 120px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 75px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LUMC.jpg" alt="LUMC" style="max-height: 70px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VU.png" alt="Vrije Universiteit" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TNO.jpg" alt="TNO" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/WUR.png" alt="Wageningen University and Research" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Radboud UMC.jpg" alt="Radboud UMC" style="max-height: 65px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/LSHTM.jpg" alt="London School of Hygiene and Tropical Medicine" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/UMC Utrecht.png" alt="UMC Utrecht" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Amsterdam UMC.png" alt="Amsterdam UMC" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Tilburg University.png" alt="Tilburg University" style="max-height: 70px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/TU Eindhoven.png" alt="TU Eindhoven" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/Universiteit Twente.png" alt="Universiteit Twente" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/RUG.jpg" alt="RUG" style="max-height: 60px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/SCP.png" alt="SCP" style="max-height: 80px;">
+    </div>
+    <div class="logo-item">
+      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 90px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/cbs_logo.jpg" alt="VWS" style="max-height: 60px;">

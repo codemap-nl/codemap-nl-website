@@ -837,12 +837,14 @@ pre code {
 }
 
 .logo-marquee-content {
-    display: inline-block;
-    animation: marquee 30s linear infinite;
+    display: inline-flex; /* Change from inline-block to inline-flex */
+    white-space: nowrap;
+    animation: marquee 75s linear infinite;
+    width: max-content; /* Ensure it takes the full width needed */
 }
 
 .logo-marquee .logo-item {
-    display: inline-block;
+    flex-shrink: 0; /* Prevent items from shrinking */
     margin: 0 2rem;
     background: none;
     box-shadow: none;
