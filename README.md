@@ -1,4 +1,4 @@
-# CODEMAP Netherlands Website
+# CODEMAP Website
 
 A collaborative platform connecting infectious disease modeling groups across the Netherlands
 
@@ -9,6 +9,11 @@ A collaborative platform connecting infectious disease modeling groups across th
 ## 🔬 About CODEMAP
 
 CODEMAP (Collaborative Dutch Epidemic Modeling and Data Analytics Platform) is strengthening the field of infectious disease modelling and data analysis in the Netherlands in a sustainable way. Our platform connects 21 leading research institutions including universities, academic medical centers, research institutes, and government agencies.
+
+### Reason for creating the platform
+In 2023, in response to experiences gained during the COVID-19 pandemic, a symposium was organised on the future of infectious disease modelling and data analysis. Participants included staff from various national research institutes and academic groups, and all acknowledged the need for national collaboration. 
+
+Based on recommendations from the international scientific audit on [COVID-19 data-analysis and modelling, in September 2023](https://www.rivm.nl/en/documenten/report-audit-rivm-covid-19-data-analytics-and-modelling-for-scientific-advice-to-policy-makers-2023), the Ministry of Health, Welfare and Sport (VWS) asked the National Institute for Public Health and the Environment (RIVM) to develop a roadmap for establishing a collaborative platform for infectious disease modelling and data analysis. This resulted in the creation of CODEMAP.
 
 **🌐 Live Website:** <https://codemap-nl.github.io/codemap-nl-website/>
 
@@ -65,7 +70,7 @@ codemap-nl-website/
 
 - [Quarto](https://quarto.org/docs/get-started/) installed
 - [Git](https://git-scm.com/) for version control
-- A modern web browser
+- A web browser
 
 ### Local Development
 
@@ -200,7 +205,7 @@ This project is licensed under the [Creative Commons Attribution-NonCommercial 4
 ## 📞 Contact
 
 - **Email:** [collabforepidemodatanalytics@rivm.nl](mailto:collabforepidemodatanalytics@rivm.nl)
-- **Website:** [RIVM Collaborative Platform](https://www.rivm.nl/infectieziektebestrijding/modelleren/collaborative-platform-en)
+- **Website:** [RIVM Collaborative Platform](https://codemap-nl.github.io/codemap-nl-website/)
 - **LinkedIn:** [CODEMAP Group](https://www.linkedin.com/groups/13094435/)
 - **GitHub:** [codemap-nl](https://github.com/codemap-nl)
 
