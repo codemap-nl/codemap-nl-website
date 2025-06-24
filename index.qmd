@@ -31,7 +31,7 @@ toc: false
       <img src="images/logos/UU.png" alt="Utrecht University" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 60px;">
+      <img src="images/logos/Erasmus MC.png" alt="Erasmus MC" style="max-height: 80px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/TU Delft.png" alt="TU Delft" style="max-height: 60px;">
@@ -76,7 +76,7 @@ toc: false
       <img src="images/logos/SCP.png" alt="SCP" style="max-height: 60px;">
     </div>
     <div class="logo-item">
-      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 60px;">
+      <img src="images/logos/VWS.png" alt="VWS" style="max-height: 70px;">
     </div>
     <div class="logo-item">
       <img src="images/logos/cbs_logo.jpg" alt="VWS" style="max-height: 60px;">
