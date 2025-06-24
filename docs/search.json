@@ -82,5 +82,12 @@
     "title": "Member Organizations",
     "section": "How to Join",
     "text": "How to Join\nInterested in joining our collaborative platform? Contact us!\n\nWebsite: Collaborative Platform for Epidemic Modelling and Data Analytics\nLinkedIn group: Epidemic Modelling and Data Analytics\nEmail: collabforepidemodatanalytics [AT] rivm.nl"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
   }
 ]
