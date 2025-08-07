@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/events/index.html</loc>
-    <lastmod>2025-06-11T12:10:53.838Z</lastmod>
+    <lastmod>2025-08-07T08:30:02.642Z</lastmod>
   </url>
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/quarto_coding_club.html</loc>
@@ -18,14 +18,18 @@
   </url>
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/index.html</loc>
-    <lastmod>2025-06-24T07:45:59.766Z</lastmod>
+    <lastmod>2025-08-07T08:50:01.009Z</lastmod>
   </url>
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/news/index.html</loc>
-    <lastmod>2025-06-11T11:53:42.590Z</lastmod>
+    <lastmod>2025-08-07T08:40:00.087Z</lastmod>
   </url>
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/members/index.html</loc>
     <lastmod>2025-06-11T19:38:24.482Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/projects/index.html</loc>
+    <lastmod>2025-08-07T08:45:23.415Z</lastmod>
   </url>
 </urlset>

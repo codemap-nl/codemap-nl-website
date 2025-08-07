@@ -1,0 +1,18 @@
+---
+title: "Projects"
+format: html
+---
+
+## UNITY Project
+*The UNified Integration of Health and Societal Impact Translation of Yield to policy and practice* 
+
+This project aims to develop a comprehensive integral assessment framework for pandemic preparedness and response. This framework will integrate insights from multiple disciplines, including mathematical modeling, epidemiology and socioeconomics, to provide actionable, evidence-based advice for policymakers. To achieve this, the modellers will (i) create a catalog of existing Dutch models that assess the epidemiological impacts of pandemic interventions for respiratory infections; (ii) identify a strategy to synthesize existing epidemiological models for the Dutch context; and (iii) explore pathways to translate outputs from epidemiological models to socio-economic impact for holistic assessment of policy options. The project addresses gaps in the current advisory systems, particularly in incorporating diverse scientific perspectives and engaging citizens. By creating an integrated tool for science-policy interaction, the project hopes to improve the advisory and decision-making process during pandemics. The results will help ensure that vulnerable populations and societal impacts are considered in response strategies. The project will involve collaboration among scientists, policymakers, and citizens, using simulations and practical testing to refine the framework for real-world application. 
+
+The project will run from September 1, 2025, to December 31, 2026. It is led by Dr. Anja Schreijer (PDPC) as Principal Investigator, with Dr. Luc Coffeng (Erasmus MC) and Dr. Ganna Rozhnova (UMC Utrecht) leading the modelling work package.
+
+## Phaeton Project
+*A ready-to-use infrastructure for predictive models without the need to share sensitive data*
+
+This project, in partnership with TNO, Leiden University, and LUMC, creates a ready-to-use modelling infrastructure that allows data analysis and modeling experts from around the world to jointly create the best performing models rapidly to provide quick, transparent and accurate support to decision makers during a pandemic. We solve data access hurdles through a unique privacy-by-design approach which was studied and tested before, that insulates sensitive data from experts, yet allows efficient model development. In addition, we further speed-up model development by providing an open-source free-to-use infrastructure with up-to-date data and models. It includes a collaboration hub for the modelling community and leaderboard approach with audit trail to submit and validate models to assure policy makers have instant access to the best models and forecasts, experts can learn from and update each other to prevent double work.
+
+For further information about the project or the upcoming workshop, please contact Dr. Eugene van Someren. 
