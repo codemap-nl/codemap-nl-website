@@ -5,32 +5,12 @@ format: html
 
 ## Upcoming Events
 
-- There are currently no upcoming events. Stay tuned!
-
-<!-- ### Introduction to Python -->
-<!-- **Date:** March 15, 2025   -->
-<!-- **Time:** 2:00 PM - 4:00 PM   -->
-<!-- **Location:** Computer Lab A   -->
+### Phaeton Workshop
+**Date:** October 31, 2025
+**Time:** TBD
+**Location:** TNO Leiden
 
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
-
-<!-- [Register Now](#){.btn .btn-primary} -->
-
-<!-- ### R for Data Visualization -->
-<!-- **Date:** March 22, 2025   -->
-<!-- **Time:** 1:00 PM - 3:00 PM   -->
-<!-- **Location:** Data Science Lab   -->
-
-<!-- Create beautiful charts and graphs using ggplot2. -->
-
-<!-- [Register Now](#){.btn .btn-primary} -->
-
-<!-- ### Web Development Bootcamp -->
-<!-- **Date:** March 29, 2025   -->
-<!-- **Time:** 10:00 AM - 4:00 PM   -->
-<!-- **Location:** Innovation Hub   -->
-
-<!-- Full-day intensive workshop covering HTML, CSS, and JavaScript. -->
 
 <!-- [Register Now](#){.btn .btn-primary} -->
 
