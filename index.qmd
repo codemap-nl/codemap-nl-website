@@ -169,7 +169,7 @@ toc: false
 
 CODEMAP includes professionals working on infectious disease modelling at a range of institutions in the Netherlands and abroad. 
 
-[Learn more](about.qmd){.card-link}
+[Learn More](about.qmd){.card-link}
 :::
 :::
 
@@ -182,7 +182,7 @@ CODEMAP includes professionals working on infectious disease modelling at a rang
 
 Find out more about our ongoing work.
 
-[Stay up-to-date](projects/index.qmd){.card-link}
+[Explore Projects](projects/index.qmd){.card-link}
 :::
 :::
 
@@ -195,7 +195,7 @@ Find out more about our ongoing work.
 
 Keep up to date on new developments within CODEMAP.
 
-[Stay up-to-date](news/index.qmd){.card-link}
+[Stay Up-to-Date](news/index.qmd){.card-link}
 :::
 :::
 
