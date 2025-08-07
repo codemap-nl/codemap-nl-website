@@ -3,4 +3,7 @@ title: "News"
 format: html
 ---
 
-This site is still under development. Stay tuned!
+## Newsletters
+
+- [July 2025](/pdfs/July_2025.pdf)
+
