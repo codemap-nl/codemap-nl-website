@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.\nThe TRENDING team connects academic research (Amsterdam UMC) with public health practice at the local (GGD Amsterdam), national (RIVM), and international (WHO) levels. The consortium also draws on communication expertise through the involvement of a science journalist. The project is led by Dr. Janneke Heijne (GGD Amsterdam and Amsterdam UMC), and carried out by Kirsten Bisschops (junior researcher) and Natcha Jitsuk (postdoctoral researcher)."
+  },
+  {
+    "objectID": "projects/index.html#modelling-the-interplay-between-transmission-of-misinformation-and-infectious-diseases",
+    "href": "projects/index.html#modelling-the-interplay-between-transmission-of-misinformation-and-infectious-diseases",
+    "title": "Projects",
+    "section": "",
+    "text": "The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.\nThe TRENDING team connects academic research (Amsterdam UMC) with public health practice at the local (GGD Amsterdam), national (RIVM), and international (WHO) levels. The consortium also draws on communication expertise through the involvement of a science journalist. The project is led by Dr. Janneke Heijne (GGD Amsterdam and Amsterdam UMC), and carried out by Kirsten Bisschops (junior researcher) and Natcha Jitsuk (postdoctoral researcher)."
+  },
+  {
+    "objectID": "projects/index.html#real-time-spatial-data-driven-modelling-of-infectious-disease-outbreaks",
+    "href": "projects/index.html#real-time-spatial-data-driven-modelling-of-infectious-disease-outbreaks",
+    "title": "Projects",
+    "section": "Real-time spatial data-driven modelling of infectious disease outbreaks",
+    "text": "Real-time spatial data-driven modelling of infectious disease outbreaks\nAt the start of a pandemic, effective containment is urgent, and manpower is scarce. Therefore, it is crucial to know in advance which real-time data sources are most informative and how they can best be used in epidemiological models.\nThe project aims to: 1. Integrate spatial real-time information on wastewater, mobility and contact behavior in epidemiological transmission models; 2. Identify which data sources and modelling approaches are most essential for accurate predictions at the start of a pandemic.\nThe project has three research lines. 1. Comparison of two spatial infectious disease transmission models We compare agent-based and metapopulation models that both incorporate mobility between regions. The goal is to understand the relationship between their parameters so that they can enhance each other in nowcasting and scenario analysis. Since real-time mobility data are often difficult to obtain, incomplete, and inaccurate, we also investigate whether simpler mobility models, such as the gravity model, can already capture spatial patterns effectively. 2. Integration of wastewater loads in transmission models At the start of a new outbreak, existing wastewater infrastructure can provide real-time information on the epidemic trajectory. However, forecasting based solely on viral load trends is challenging, as the underlying epidemiological dynamics are not explicitly modelled. Conversely, compartmental models struggle when pathogen characteristics, including shedding rates in wastewater, are still unknown. We work on integration of both approaches in a generalized profiling framework, that aims to produce short-term predictions during the early stages of a pandemic. 3. Framework for integration of several models and data sources Current approaches to model initialization and parameter estimation differ from each other depending on which data source they use, e.g., self-reported risky behavior, hospitalizations, or wastewater data. We are developing a mathematical optimization framework to unify these different approaches. Most common machine learning methods such as regression can also be represented within this framework. This allows us to simultaneously optimize model design and fit the available data to these models.\nThe project is led by Nelly Litvak (Eindhoven University of Technology). Collaborating partners include RIVM, Utrecht University, UMC Utrecht, Leiden UMC, Tilburg University, and Eindhoven University of Technology."
+  },
+  {
+    "objectID": "projects/index.html#unity-project",
+    "href": "projects/index.html#unity-project",
+    "title": "Projects",
+    "section": "UNITY Project",
+    "text": "UNITY Project\nThe UNified Integration of Health and Societal Impact Translation of Yield to policy and practice\nThis project aims to develop a comprehensive integral assessment framework for pandemic preparedness and response. This framework will integrate insights from multiple disciplines, including mathematical modeling, epidemiology and socioeconomics, to provide actionable, evidence-based advice for policymakers. To achieve this, the modellers will (i) create a catalog of existing Dutch models that assess the epidemiological impacts of pandemic interventions for respiratory infections; (ii) identify a strategy to synthesize existing epidemiological models for the Dutch context; and (iii) explore pathways to translate outputs from epidemiological models to socio-economic impact for holistic assessment of policy options. The project addresses gaps in the current advisory systems, particularly in incorporating diverse scientific perspectives and engaging citizens. By creating an integrated tool for science-policy interaction, the project hopes to improve the advisory and decision-making process during pandemics. The results will help ensure that vulnerable populations and societal impacts are considered in response strategies. The project will involve collaboration among scientists, policymakers, and citizens, using simulations and practical testing to refine the framework for real-world application.\nThe project will run from September 1, 2025, to December 31, 2026. It is led by Dr. Anja Schreijer (PDPC) as Principal Investigator, with Dr. Luc Coffeng (Erasmus MC) and Dr. Ganna Rozhnova (UMC Utrecht) leading the modelling work package."
+  },
+  {
+    "objectID": "projects/index.html#phaeton-project",
+    "href": "projects/index.html#phaeton-project",
+    "title": "Projects",
+    "section": "Phaeton Project",
+    "text": "Phaeton Project\nA ready-to-use infrastructure for predictive models without the need to share sensitive data\nThis project, in partnership with TNO, Leiden University, and LUMC, creates a ready-to-use modelling infrastructure that allows data analysis and modeling experts from around the world to jointly create the best performing models rapidly to provide quick, transparent and accurate support to decision makers during a pandemic. We solve data access hurdles through a unique privacy-by-design approach which was studied and tested before, that insulates sensitive data from experts, yet allows efficient model development. In addition, we further speed-up model development by providing an open-source free-to-use infrastructure with up-to-date data and models. It includes a collaboration hub for the modelling community and leaderboard approach with audit trail to submit and validate models to assure policy makers have instant access to the best models and forecasts, experts can learn from and update each other to prevent double work.\nFor further information about the project or the upcoming workshop, please contact Dr. Eugene van Someren."
+  },
+  {
     "objectID": "events/index.html",
     "href": "events/index.html",
     "title": "Events",
@@ -21,18 +63,18 @@
     "text": "Past Events\n\n31 October 2025: Phaeton Workshop, TNO Leiden\n3 March 2025: Mpox and HIV/STI Modelling meeting\n13-14 February 2025: The Future of Nowcasting Infectious Diseases\n22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n8 April 2024: Mpox and HIV/STI Modelling meeting"
   },
   {
-    "objectID": "quarto_coding_club.html#what-we-offer",
-    "href": "quarto_coding_club.html#what-we-offer",
-    "title": "Coding Club",
-    "section": "What We Offer",
-    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nWe are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📊\n\n\nBoost your skills\nDevelop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🎓\n\n\nCertifications & Resources\nGet free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description}"
+    "objectID": "members/index.html",
+    "href": "members/index.html",
+    "title": "Member Organizations",
+    "section": "",
+    "text": "CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad."
   },
   {
-    "objectID": "quarto_coding_club.html#learning-resources",
-    "href": "quarto_coding_club.html#learning-resources",
-    "title": "Coding Club",
-    "section": "Learning Resources",
-    "text": "Learning Resources\n\n\n\n🐍\n\n\nPython Programming\n\n\nLearn Python from basics to advanced data science applications\n\n\n\n\n📈\n\n\nR for Data Science\n\n\nMaster statistical analysis and visualization with R\n\n\n\n\n🌐\n\n\nWeb Development\n\n\nBuild modern websites with HTML, CSS, and JavaScript\n\n\n\n\n🤖\n\n\nMachine Learning\n\n\nExplore AI and ML algorithms for real-world applications\n\n\n\n\n\n\nAbout Coding Club\nWe believe coding is for everyone. Join our community and start your coding journey today with supportive peers and comprehensive resources.\n\n\nQuick Links\nLearn to Code Upcoming Events Free Resources Get in Touch\n\n\nLanguages & Tools\nPython Tutorials R Programming Data Science Web Development\n\n\nConnect\n📧 Email 💬 Discord 🐙 GitHub 📱 Twitter\n\n\n\n© 2025 Coding Club. Licensed under Creative Commons Attribution-NonCommercial 4.0 International License."
+    "objectID": "members/index.html#how-to-join",
+    "href": "members/index.html#how-to-join",
+    "title": "Member Organizations",
+    "section": "How to Join",
+    "text": "How to Join\nInterested in joining our collaborative platform? Contact us!\n\nWebsite: Collaborative Platform for Epidemic Modelling and Data Analytics\nLinkedIn group: Epidemic Modelling and Data Analytics\nEmail: collabforepidemodatanalytics [AT] rivm.nl"
   },
   {
     "objectID": "about.html",
@@ -63,11 +105,18 @@
     "text": "Partner Organizations\nCODEMAP includes professionals working at a range of institutions in the Netherlands and abroad. Below is a list of participating institutions. For more details, see our Members page\n\nUniversiteit Utrecht (UU)\nWageningen University and Research (WUR)\nErasmus MC\nRadboud UMC\nTU Eindhoven\nTU Delft\nTNO\nVrije Universiteit (VU)\nUniversitair Medisch Centrum Utrecht (UMCU)\nLeiden Universitair Medisch Centrum (LUMC)\nAmsterdam UMC\nUniversiteit Twente\nTilburg Universiteit\nRijksuniversiteit Groningen (RUG)\nUniversiteit van Amsterdam (UvA)\nCentraal Bureau voor de Statistiek (CBS)\nSociaal en Cultureel Planbureau (SCP)\nLandelijk Coördinatie Centrum Patiëntenspreiding (LCPS)\nLondon School of Hygiene and Tropical Medicine (LSHTM)\nVWS\nRIVM"
   },
   {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Resources",
-    "section": "",
-    "text": "This site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
+    "objectID": "quarto_coding_club.html#what-we-offer",
+    "href": "quarto_coding_club.html#what-we-offer",
+    "title": "Coding Club",
+    "section": "What We Offer",
+    "text": "What We Offer\n\n\n\n👥\n\n\nWho are we?\nWe are a group of enthusiastic students who are passionate about coding and data science, building a community of learners. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📊\n\n\nBoost your skills\nDevelop your coding skills in R, Python, and other languages for data analysis, visualization, and beyond. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🎓\n\n\nCertifications & Resources\nGet free access to our materials, books, and resources to boost your coding skills and earn certifications. {.card-description}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📅\n\n\nEvents & Workshops\nCheck our past and upcoming events, workshops, and coding sessions designed to enhance your learning experience. {.card-description}"
+  },
+  {
+    "objectID": "quarto_coding_club.html#learning-resources",
+    "href": "quarto_coding_club.html#learning-resources",
+    "title": "Coding Club",
+    "section": "Learning Resources",
+    "text": "Learning Resources\n\n\n\n🐍\n\n\nPython Programming\n\n\nLearn Python from basics to advanced data science applications\n\n\n\n\n📈\n\n\nR for Data Science\n\n\nMaster statistical analysis and visualization with R\n\n\n\n\n🌐\n\n\nWeb Development\n\n\nBuild modern websites with HTML, CSS, and JavaScript\n\n\n\n\n🤖\n\n\nMachine Learning\n\n\nExplore AI and ML algorithms for real-world applications\n\n\n\n\n\n\nAbout Coding Club\nWe believe coding is for everyone. Join our community and start your coding journey today with supportive peers and comprehensive resources.\n\n\nQuick Links\nLearn to Code Upcoming Events Free Resources Get in Touch\n\n\nLanguages & Tools\nPython Tutorials R Programming Data Science Web Development\n\n\nConnect\n📧 Email 💬 Discord 🐙 GitHub 📱 Twitter\n\n\n\n© 2025 Coding Club. Licensed under Creative Commons Attribution-NonCommercial 4.0 International License."
   },
   {
     "objectID": "news/index.html",
@@ -77,59 +126,10 @@
     "text": "October 2025\nJuly 2025"
   },
   {
-    "objectID": "members/index.html",
-    "href": "members/index.html",
-    "title": "Member Organizations",
-    "section": "",
-    "text": "CODEMAP includes professionals working at a range of institutions in the Netherlands and abroad."
-  },
-  {
-    "objectID": "members/index.html#how-to-join",
-    "href": "members/index.html#how-to-join",
-    "title": "Member Organizations",
-    "section": "How to Join",
-    "text": "How to Join\nInterested in joining our collaborative platform? Contact us!\n\nWebsite: Collaborative Platform for Epidemic Modelling and Data Analytics\nLinkedIn group: Epidemic Modelling and Data Analytics\nEmail: collabforepidemodatanalytics [AT] rivm.nl"
-  },
-  {
     "objectID": "news/index.html#newsletters",
     "href": "news/index.html#newsletters",
     "title": "News",
     "section": "",
     "text": "October 2025\nJuly 2025"
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.\nThe TRENDING team connects academic research (Amsterdam UMC) with public health practice at the local (GGD Amsterdam), national (RIVM), and international (WHO) levels. The consortium also draws on communication expertise through the involvement of a science journalist. The project is led by Dr. Janneke Heijne (GGD Amsterdam and Amsterdam UMC), and carried out by Kirsten Bisschops (junior researcher) and Natcha Jitsuk (postdoctoral researcher)."
-  },
-  {
-    "objectID": "projects/index.html#unity-project",
-    "href": "projects/index.html#unity-project",
-    "title": "Projects",
-    "section": "UNITY Project",
-    "text": "UNITY Project\nThe UNified Integration of Health and Societal Impact Translation of Yield to policy and practice\nThis project aims to develop a comprehensive integral assessment framework for pandemic preparedness and response. This framework will integrate insights from multiple disciplines, including mathematical modeling, epidemiology and socioeconomics, to provide actionable, evidence-based advice for policymakers. To achieve this, the modellers will (i) create a catalog of existing Dutch models that assess the epidemiological impacts of pandemic interventions for respiratory infections; (ii) identify a strategy to synthesize existing epidemiological models for the Dutch context; and (iii) explore pathways to translate outputs from epidemiological models to socio-economic impact for holistic assessment of policy options. The project addresses gaps in the current advisory systems, particularly in incorporating diverse scientific perspectives and engaging citizens. By creating an integrated tool for science-policy interaction, the project hopes to improve the advisory and decision-making process during pandemics. The results will help ensure that vulnerable populations and societal impacts are considered in response strategies. The project will involve collaboration among scientists, policymakers, and citizens, using simulations and practical testing to refine the framework for real-world application.\nThe project will run from September 1, 2025, to December 31, 2026. It is led by Dr. Anja Schreijer (PDPC) as Principal Investigator, with Dr. Luc Coffeng (Erasmus MC) and Dr. Ganna Rozhnova (UMC Utrecht) leading the modelling work package."
-  },
-  {
-    "objectID": "projects/index.html#phaeton-project",
-    "href": "projects/index.html#phaeton-project",
-    "title": "Projects",
-    "section": "Phaeton Project",
-    "text": "Phaeton Project\nA ready-to-use infrastructure for predictive models without the need to share sensitive data\nThis project, in partnership with TNO, Leiden University, and LUMC, creates a ready-to-use modelling infrastructure that allows data analysis and modeling experts from around the world to jointly create the best performing models rapidly to provide quick, transparent and accurate support to decision makers during a pandemic. We solve data access hurdles through a unique privacy-by-design approach which was studied and tested before, that insulates sensitive data from experts, yet allows efficient model development. In addition, we further speed-up model development by providing an open-source free-to-use infrastructure with up-to-date data and models. It includes a collaboration hub for the modelling community and leaderboard approach with audit trail to submit and validate models to assure policy makers have instant access to the best models and forecasts, experts can learn from and update each other to prevent double work.\nFor further information about the project or the upcoming workshop, please contact Dr. Eugene van Someren."
-  },
-  {
-    "objectID": "projects/index.html#modelling-the-interplay-between-transmission-of-misinformation-and-infectious-diseases",
-    "href": "projects/index.html#modelling-the-interplay-between-transmission-of-misinformation-and-infectious-diseases",
-    "title": "Projects",
-    "section": "",
-    "text": "The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.\nThe TRENDING team connects academic research (Amsterdam UMC) with public health practice at the local (GGD Amsterdam), national (RIVM), and international (WHO) levels. The consortium also draws on communication expertise through the involvement of a science journalist. The project is led by Dr. Janneke Heijne (GGD Amsterdam and Amsterdam UMC), and carried out by Kirsten Bisschops (junior researcher) and Natcha Jitsuk (postdoctoral researcher)."
-  },
-  {
-    "objectID": "projects/index.html#real-time-spatial-data-driven-modelling-of-infectious-disease-outbreaks",
-    "href": "projects/index.html#real-time-spatial-data-driven-modelling-of-infectious-disease-outbreaks",
-    "title": "Projects",
-    "section": "Real-time spatial data-driven modelling of infectious disease outbreaks",
-    "text": "Real-time spatial data-driven modelling of infectious disease outbreaks\nAt the start of a pandemic, effective containment is urgent, and manpower is scarce. Therefore, it is crucial to know in advance which real-time data sources are most informative and how they can best be used in epidemiological models.\nThe project aims to: 1. Integrate spatial real-time information on wastewater, mobility and contact behavior in epidemiological transmission models; 2. Identify which data sources and modelling approaches are most essential for accurate predictions at the start of a pandemic.\nThe project has three research lines. 1. Comparison of two spatial infectious disease transmission models We compare agent-based and metapopulation models that both incorporate mobility between regions. The goal is to understand the relationship between their parameters so that they can enhance each other in nowcasting and scenario analysis. Since real-time mobility data are often difficult to obtain, incomplete, and inaccurate, we also investigate whether simpler mobility models, such as the gravity model, can already capture spatial patterns effectively. 2. Integration of wastewater loads in transmission models At the start of a new outbreak, existing wastewater infrastructure can provide real-time information on the epidemic trajectory. However, forecasting based solely on viral load trends is challenging, as the underlying epidemiological dynamics are not explicitly modelled. Conversely, compartmental models struggle when pathogen characteristics, including shedding rates in wastewater, are still unknown. We work on integration of both approaches in a generalized profiling framework, that aims to produce short-term predictions during the early stages of a pandemic. 3. Framework for integration of several models and data sources Current approaches to model initialization and parameter estimation differ from each other depending on which data source they use, e.g., self-reported risky behavior, hospitalizations, or wastewater data. We are developing a mathematical optimization framework to unify these different approaches. Most common machine learning methods such as regression can also be represented within this framework. This allows us to simultaneously optimize model design and fit the available data to these models.\nThe project is led by Nelly Litvak (Eindhoven University of Technology). Collaborating partners include RIVM, Utrecht University, UMC Utrecht, Leiden UMC, Tilburg University, and Eindhoven University of Technology."
   }
 ]

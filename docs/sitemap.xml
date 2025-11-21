@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/events/index.html</loc>
-    <lastmod>2025-11-21T14:21:03.606Z</lastmod>
-  </url>
-  <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/quarto_coding_club.html</loc>
-    <lastmod>2025-11-21T12:39:11.747Z</lastmod>
-  </url>
-  <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/about.html</loc>
-    <lastmod>2025-06-11T12:14:21.993Z</lastmod>
-  </url>
-  <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/resources/index.html</loc>
     <lastmod>2025-11-21T12:39:11.757Z</lastmod>
   </url>
   <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/index.html</loc>
-    <lastmod>2025-11-21T12:55:43.994Z</lastmod>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/projects/index.html</loc>
+    <lastmod>2025-11-21T14:25:37.954Z</lastmod>
   </url>
   <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/news/index.html</loc>
-    <lastmod>2025-11-21T14:25:18.019Z</lastmod>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/events/index.html</loc>
+    <lastmod>2025-11-21T14:21:03.606Z</lastmod>
   </url>
   <url>
     <loc>https://codemap-nl.github.io/codemap-nl-website/members/index.html</loc>
     <lastmod>2025-11-21T12:39:11.682Z</lastmod>
   </url>
   <url>
-    <loc>https://codemap-nl.github.io/codemap-nl-website/projects/index.html</loc>
-    <lastmod>2025-11-21T14:25:37.954Z</lastmod>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/about.html</loc>
+    <lastmod>2025-11-21T12:39:10.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/index.html</loc>
+    <lastmod>2025-11-21T12:55:43.994Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/quarto_coding_club.html</loc>
+    <lastmod>2025-11-21T12:39:11.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://codemap-nl.github.io/codemap-nl-website/news/index.html</loc>
+    <lastmod>2025-11-21T14:25:18.019Z</lastmod>
   </url>
 </urlset>
