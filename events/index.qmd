@@ -5,9 +5,9 @@ format: html
 
 ## Upcoming Events
 
-### Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena
+#### Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena
 **Date:** December 12, 2025
-**Time:** TBD
+**Time:** 9:00-13:00
 **Location:** VWS, Den Haag
 
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
