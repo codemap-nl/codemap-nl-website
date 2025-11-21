@@ -6,7 +6,7 @@
 _site/
 _book/
 
-# Quarto working directories  
+# Quarto working directories
 /.quarto/
 .quarto/
 
@@ -232,3 +232,4 @@ private/
 # Backup files
 *.backup
 backup/
+**/*.quarto_ipynb

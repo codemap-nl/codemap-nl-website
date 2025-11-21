@@ -5,5 +5,6 @@ format: html
 
 ## Newsletters
 
+- [October 2025](/pdfs/October_2025.pdf)
 - [July 2025](/pdfs/July_2025.pdf)
 

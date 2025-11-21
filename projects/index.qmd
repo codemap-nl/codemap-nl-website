@@ -3,6 +3,33 @@ title: "Projects"
 format: html
 ---
 
+## Modelling the interplay between TRansmission of (mis)informatioN and Infectious diseases 
+
+The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.
+
+The TRENDING team connects academic research (Amsterdam UMC) with public health practice at the local (GGD Amsterdam), national (RIVM), and international (WHO) levels. The consortium also draws on communication expertise through the involvement of a science journalist. The project is led by Dr. Janneke Heijne (GGD Amsterdam and Amsterdam UMC), and carried out by Kirsten Bisschops (junior researcher) and Natcha Jitsuk (postdoctoral researcher).
+
+## Real-time spatial data-driven modelling of infectious disease outbreaks
+
+At the start of a pandemic, effective containment is urgent, and manpower is scarce. Therefore, it is
+crucial to know in advance which real-time data sources are most informative and how they can best be
+used in epidemiological models.
+
+The project aims to:
+1.	Integrate spatial real-time information on wastewater, mobility and contact behavior in epidemiological transmission models;
+2.	Identify which data sources and modelling approaches are most essential for accurate predictions at the start of a pandemic.
+
+The project has three research lines.
+1.	Comparison of two spatial infectious disease transmission models
+We compare agent-based and metapopulation models that both incorporate mobility between regions. The goal is to understand the relationship between their parameters so that they can enhance each other in nowcasting and scenario analysis. Since real-time mobility data are often difficult to obtain, incomplete, and inaccurate, we also investigate whether simpler mobility models, such as the gravity model, can already capture spatial patterns effectively.
+2.	Integration of wastewater loads in transmission models
+At the start of a new outbreak, existing wastewater infrastructure can provide real-time information on the epidemic trajectory. However, forecasting based solely on viral load trends is challenging, as the underlying epidemiological dynamics are not explicitly modelled. Conversely, compartmental models struggle when pathogen characteristics, including shedding rates in wastewater, are still unknown. We work on integration of both approaches in a generalized profiling framework, that aims to produce short-term predictions during the early stages of a pandemic.
+3.	Framework for integration of several models and data sources
+Current approaches to model initialization and parameter estimation differ from each other depending on which data source they use, e.g., self-reported risky behavior, hospitalizations, or wastewater data. We are developing a mathematical optimization framework to unify these different approaches. Most common machine learning methods such as regression can also be represented within this framework. This allows us to simultaneously optimize model design and fit the available data to these models.
+
+The project is led by Nelly Litvak (Eindhoven University of Technology). Collaborating partners include RIVM, Utrecht University, UMC Utrecht, Leiden UMC, Tilburg University, and Eindhoven University of Technology.
+
+
 ## UNITY Project
 *The UNified Integration of Health and Societal Impact Translation of Yield to policy and practice* 
 

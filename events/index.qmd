@@ -5,16 +5,18 @@ format: html
 
 ## Upcoming Events
 
-### Phaeton Workshop
-**Date:** October 31, 2025
+### Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena
+**Date:** December 12, 2025
 **Time:** TBD
-**Location:** TNO Leiden
+**Location:** VWS, Den Haag
 
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
 
 <!-- [Register Now](#){.btn .btn-primary} -->
 
 ## Past Events
+
+- **31 October 2025:** Phaeton Workshop, TNO Leiden
 
 - **3 March 2025:** Mpox and HIV/STI Modelling meeting
 
