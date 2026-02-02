@@ -3,6 +3,49 @@ title: "Projects"
 format: html
 ---
 
+## Refining pandemic strategies for schools – multiscale modeling of their societal & public health impact
+
+Schools are a critical setting for transmission of newly emerging respiratory pathogens and, thus, are
+among the primary targets for pandemic measures. However, interventions such as masking or school
+closures can be contentious: they may disrupt learning and wellbeing, and their population-level impact
+on transmission can vary widely by pathogen and context. Our project develops an integrated modelling
+framework to support pathogen-adaptive, evidence-informed school intervention strategies, explicitly
+accounting for both public-health and societal trade-offs. This framework is designed to assist
+policymakers in making well-informed decisions so that they adopt evidence-based interventions that
+account for both types of outcomes (infections and children’s learning loss).
+
+**Our project aims to:**
+1. Quantify transmission dynamics across multiple scales (classroom, school, and school-household
+network) for a range of respiratory pathogen scenarios.
+2. Evaluate both epidemiological (infections among children and the wider community) and societal
+(children’s absenteeism and learning outcomes, with particular attention to socio-economically
+disadvantaged groups) impacts of school-based transmission and interventions.
+3. Co-develop and assess intervention strategies across multiple scales (e.g., classroom ventilation,
+quarantine policies, and country-wide school closures) in collaboration with stakeholders, using
+simulation studies and tabletop exercises to support preparedness and decision-making for future
+pandemics.
+
+**Methodology**
+We combine three linked modelling layers: (i) At classroom scale, an individual-based indoor transmission
+model represents interactions in indoor spaces under setting-specific activity patterns; (ii) At school scale,
+we model heterogeneity between classrooms across primary and secondary education, incorporating
+realistic schedules and school-size variation; (iii) At community scale, a stochastic agent-based model
+captures transmission in a school-household network, with school, household, and community
+transmission pathways. To represent the Dutch context, we will construct a synthetic school-household
+population consistent with public school-network and demographic data (DUO, CBS) and integrate it into
+the network model.
+
+Cross-scale coupling is achieved through functional relationships (classroom to school and school to
+network-level spread). Analyses will span hypothetical pathogens varying along four axes: transmission
+efficiency, importance of aerosol transmission, severity risk in school-aged children, and the contribution
+of asymptomatic transmission.
+
+**Next steps**
+Calibrate model components to early SARS-CoV-2 dynamics in the Netherlands.
+Perform multi-criteria trade-off analyses quantifying epidemic control versus learning loss and absenteeism.
+The project is led by Ganna Rozhnova (University Medical Center Utrecht), with collaborating partners including UMC Utrecht, Wageningen University and Research, RIVM, Maastricht University, Amsterdam UMC, Delft University of Technology, and Utrecht University.
+
+
 ## Modelling the interplay between TRansmission of (mis)informatioN and Infectious diseases 
 
 The TRENDING project aims to increase our understanding of the interplay between infodemic (information) and pandemic (infection) transmission dynamics. While mathematical models have long supported public health decision-making, they rarely include the dynamics of (mis)information. This is important, as (mis)information can spread as rapidly as a virus and may undermine trust in public health measures or reduce adherence to interventions. TRENDING bridges this gap by developing a mathematical model that links infection and (mis)information transmission. The model will be informed by real-life data collected during the project. It will help estimate how different infodemic management strategies could affect infection dynamics, providing new insights to strengthen both infodemic and pandemic preparedness.

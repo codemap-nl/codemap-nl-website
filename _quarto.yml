@@ -24,6 +24,8 @@ website:
         text: Members
       - href: events/index.qmd
         text: Events
+      - href: projects/index.qmd
+        text: Projects        
       - href: resources/index.qmd
         text: Resources
       - href: news/index.qmd

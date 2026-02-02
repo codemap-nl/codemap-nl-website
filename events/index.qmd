@@ -5,16 +5,23 @@ format: html
 
 ## Upcoming Events
 
-#### Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena
-**Date:** December 12, 2025
-**Time:** 9:00-13:00
-**Location:** VWS, Den Haag
+#### Meeting on HIV, mpox and STI Modelling
+**Date:** March 9, 2026
+**Time:** -
+**Location:** -
+
+#### Workshop on Pandemic Strategies in Schools
+**Date:** May 29, 2026
+**Time:** -
+**Location:** -
 
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
 
 <!-- [Register Now](#){.btn .btn-primary} -->
 
 ## Past Events
+
+- **12 December 2025:** Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena, (Organised at VWS)
 
 - **31 October 2025:** Phaeton Workshop, TNO Leiden
 
