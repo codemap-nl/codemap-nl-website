@@ -3,6 +3,18 @@ title: "Projects"
 format: html
 ---
 
+## Predicting pre-existing immunity to novel pandemic viruses
+
+Human pandemics caused by novel viruses have emerged many times throughout human history. The public health impact of such viruses can vary dramatically, depending on pre-existing immunity in the human population. Immunity to pathogens varies between different people, resulting from differences in genes involved in presenting antigens to the immune system. In our project we aim to computationally predict the presence of pre-existing immunity against potential pandemic viruses. We focus on T cell mediated immune memory by identifying MHC class I epitopes (short peptides of the viral proteome that are recognised by the immune system) in novel viruses. These epitopes are then compared to a pool of previously encountered reference epitopes, and potential cross-reactive matches are identified. Using this approach, we predict pre-existing immunity to be present in a subset of the population representing specific HLA and age groups. The main output of these analyses is a table of epitope predictions for novel viruses, and their predicted cross-reactive matches against reference epitopes. This information can be used as an advisory resource in the event of an emerging pandemic. In a parallel track, we build and analyse a new class of transmission models that can take historical and genetic variations into account, to forecast immune histories in groups stratified by age and genetics.
+
+**Lessons learned**: First, a one-and-a-half-year project is short for a multidisciplinary effort that combines immunology, computational modelling, and infectious-disease epidemiology. Nevertheless, the project has led to progress in various directions. For instance, a lesson has been that modern protein language models can capture biologically meaningful information about peptide sequences that is relevant for Tcell recognition.
+
+**Publications**: We are currently drafting two manuscripts describing the computational prediction framework and its application to emerging influenza A viruses and coronaviruses (see the figure for a sample), and we plan to further develop the modelling in follow-up work. We have submitted a manuscript on the time-age-genetics stratified transmission model (van Boven et al (2026) Optimal vaccination in aging populations under age-dependent infection fatality risks).
+
+The project is led by Michiel van Boven from the University Medical Center Utrecht, and involves the following partners: Farzaneh Meimandi Parizi and Johannes Textor from Radboud University, as well as Oscar Jordan, Can Kesmir, and Rob de Boer from Utrecht University.
+
+![CD8 T cell antigenic map of historical influenza A viruses, visualising the virus-virus and virus-epitope distances. Note that the map contains all three major human subtypes. Also note that the recent H5N1 avian influenza viruses are antigenically close to recent human H1N1 viruses. Similar visualisations are available for human coronaviruses.](images/cd8tcell.png)
+
 ## Refining pandemic strategies for schools – multiscale modeling of their societal & public health impact
 
 Schools are a critical setting for transmission of newly emerging respiratory pathogens and, thus, are
