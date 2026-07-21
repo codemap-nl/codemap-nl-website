@@ -5,16 +5,21 @@ format: html
 
 ## Upcoming Events
 
-- **29 May 2026:** Workshop on Pandemic Strategies in Schools
+- **24 September 2026:** Workshop on "Spatial modelling and data integration for early warning at the start of the next pandemic"
 
-- **19 June 2026:** Symposium Connecting Survival Analysis and Infectious Disease Modelling, 
-  - **Location:** Gorlaeus Building in the Leiden Bio Science Park
+- **28 September 2026:** Symposium "AI for Infectious Disease Modelling"
+
+- **27 October 2026:** Workshop on Societal Impact & Infectious Disease Modelling
 
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
 
 <!-- [Register Now](#){.btn .btn-primary} -->
 
 ## Past Events
+
+- **19 June 2026:** Symposium Connecting Survival Analysis and Infectious Disease Modelling, 
+
+- **29 May 2026:** Workshop on Pandemic Strategies in Schools
 
 - **9 March 2026:** Meeting on HIV, mpox and STI Modelling
 
