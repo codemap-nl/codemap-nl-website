@@ -3,6 +3,10 @@ title: "Resources"
 format: html
 ---
 
+## Documents
+
+- [Q&A Infectious Disease Models in Crisis Decision Making](/documents/resources/20251212_QA_Infectious_Disease_Models_in_Crisis_Decision_Making.pdf)
+
 This site is still under development.
 
 In the meantime, please keep an eye on our [GitHub page](https://github.com/codemap-nl).
