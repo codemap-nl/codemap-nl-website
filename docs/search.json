@@ -123,7 +123,7 @@
     "href": "events/index.html#past-events",
     "title": "Events",
     "section": "Past Events",
-    "text": "Past Events\n\n19 June 2026: Symposium Connecting Survival Analysis and Infectious Disease Modelling,\n29 May 2026: Workshop on Pandemic Strategies in Schools\n9 March 2026: Meeting on HIV, mpox and STI Modelling\n12 December 2025: Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena, (Organised at VWS)\n31 October 2025: Phaeton Workshop, TNO Leiden\n3 March 2025: Mpox and HIV/STI Modelling meeting\n13-14 February 2025: The Future of Nowcasting Infectious Diseases\n22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n8 April 2024: Mpox and HIV/STI Modelling meeting"
+    "text": "Past Events\n\n27 October 2026: Workshop on Societal Impact & Infectious Disease Modelling\n28 September 2026: Workshop on “Spatial modelling and data integration for early warning at the start of the next pandemic”\n24 September 2026: Symposium “AI for Infectious Disease Modelling”\n19 June 2026: Symposium Connecting Survival Analysis and Infectious Disease Modelling,\n29 May 2026: Workshop on Pandemic Strategies in Schools\n9 March 2026: Meeting on HIV, mpox and STI Modelling\n12 December 2025: Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena (Organised at VWS) [documents]\n31 October 2025: Phaeton Workshop, TNO Leiden\n3 March 2025: Mpox and HIV/STI Modelling meeting\n13-14 February 2025: The Future of Nowcasting Infectious Diseases\n22 November 2024: Towards capturing human mobility in infectious disease models for pandemic preparedness and control (organized with the R2M2P2 project, Erasmus MC)\n6 June 2024: Overview of COVID-19 modelling effort in the Netherlands: effectiveness of measures\n8 April 2024: Mpox and HIV/STI Modelling meeting"
   },
   {
     "objectID": "news/index.html",
@@ -144,7 +144,7 @@
     "href": "resources/index.html",
     "title": "Resources",
     "section": "",
-    "text": "Q&A Infectious Disease Models in Crisis Decision Making\n\nThis site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
+    "text": "This site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
   },
   {
     "objectID": "resources/index.html#documents",
@@ -152,5 +152,26 @@
     "title": "Resources",
     "section": "",
     "text": "Q&A Infectious Disease Models in Crisis Decision Making\n\nThis site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
+  },
+  {
+    "objectID": "resources/index.html#event-documents",
+    "href": "resources/index.html#event-documents",
+    "title": "Resources",
+    "section": "Event Documents",
+    "text": "Event Documents\n\nInfectious Disease Models in Crisis Decision-Making\n\nQ&A Infectious Disease Models in Crisis Decision Making"
+  },
+  {
+    "objectID": "resources/index.html#test-1",
+    "href": "resources/index.html#test-1",
+    "title": "Resources",
+    "section": "Test",
+    "text": "Test\nThis site is still under development.\nIn the meantime, please keep an eye on our GitHub page."
+  },
+  {
+    "objectID": "resources/index.html#events",
+    "href": "resources/index.html#events",
+    "title": "Resources",
+    "section": "Events",
+    "text": "Events\n\nInfectious Disease Models in Crisis Decision-Making\n\nQ&A Infectious Disease Models in Crisis Decision Making"
   }
 ]

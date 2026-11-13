@@ -5,17 +5,17 @@ format: html
 
 ## Upcoming Events
 
-- **24 September 2026:** Symposium "AI for Infectious Disease Modelling"
-
-- **28 September 2026:** Workshop on "Spatial modelling and data integration for early warning at the start of the next pandemic"
-
-- **27 October 2026:** Workshop on Societal Impact & Infectious Disease Modelling
-
 <!-- Perfect for complete beginners! Learn Python basics in a hands-on workshop. -->
 
 <!-- [Register Now](#){.btn .btn-primary} -->
 
 ## Past Events
+
+- **27 October 2026:** Workshop on Societal Impact & Infectious Disease Modelling
+
+- **28 September 2026:** Workshop on "Spatial modelling and data integration for early warning at the start of the next pandemic"
+
+- **24 September 2026:** Symposium "AI for Infectious Disease Modelling"
 
 - **19 June 2026:** Symposium Connecting Survival Analysis and Infectious Disease Modelling, 
 
@@ -23,7 +23,7 @@ format: html
 
 - **9 March 2026:** Meeting on HIV, mpox and STI Modelling
 
-- **12 December 2025:** Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena, (Organised at VWS)
+- **12 December 2025:** Infectious Disease Models in Crisis Decision-Making: Roles, Pathways, and Realities in the Policy Arena (Organised at VWS) [\[documents\]](/resources/#infectious-disease-models-in-crisis-decision-making)
 
 - **31 October 2025:** Phaeton Workshop, TNO Leiden
 
